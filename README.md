@@ -11,39 +11,21 @@
 
 ## 🌟 Welcome to Your Data Science Journey!
 
-This repository contains the **foundational educational materials** for the Metrica Academy Data Science Bootcamp. This collection focuses on the first essential module - introducing students to data science concepts and teaching Python programming from scratch. Additional modules covering visualization, exploratory data analysis, machine learning, and deep learning will be added as the bootcamp progresses.
+The Metrica Academy Data Science Bootcamp is a comprehensive 6-month program designed to transform complete beginners into job-ready data scientists. This repository serves as the central hub for all course materials, from foundational programming to advanced machine learning techniques.
 
 ## 📚 What's Included?
 
-This repository contains the **foundational materials** for Module 1 of the Data Science Bootcamp:
+This repository contains **comprehensive educational materials** covering the essentials of data science:
 
-### 🔧 [Installation Kit](installation-kit/)
-*Your technical foundation starts here*
-- **Beginner-friendly setup guides** for Windows, Mac, and Linux
-- **Automated installation scripts** with comprehensive verification
-- **Troubleshooting documentation** for common issues
-- **Complete conda environment** with all data science tools
-
-### 🐍 [Python Fundamentals](python-fundamentals/)
-*Master programming from scratch*
-- **3-week intensive course** designed for absolute beginners
-- **Live coding methodology** with real-world analogies
-- **Progressive projects**: Personal finance tracker → Text adventure game → Capstone
-- **Complete lesson plans** with exercises and homework
-
-### 📊 [Introduction to Data Science](intro-to-data-science/)
-*Hands-on data science with real projects*
-- **Interactive Jupyter notebooks** with gamification
-- **10 synthetic datasets** across healthcare, finance, retail, and more
-- **Real-world applications**: COVID analysis, fraud detection, recommendation systems
-- **Professional visualization** and analysis tools
-
-### 🎯 [Complete Bootcamp Curriculum](ds-bootcamp-curriculum/)
-*Overview and structure of the full 6-month program*
-- **Program overview** and detailed syllabus
-- **6-month structured curriculum** outline (240 hours total)
-- **Assessment structure** and learning objectives
-- **Career preparation** framework
+- **🔧 Environment Setup** - Installation guides, troubleshooting documentation, and verification tools to get students started quickly
+- **🐍 Python Programming** - From absolute basics to advanced concepts, with hands-on projects and exercises
+- **📊 Data Science Fundamentals** - Core concepts, methodologies, and real-world applications using interactive notebooks
+- **📈 Data Analysis & Visualization** - Techniques for exploring, analyzing, and presenting data effectively
+- **🤖 Machine Learning** - Supervised and unsupervised learning algorithms with practical implementations
+- **🧠 Deep Learning & AI** - Neural networks, NLP, and modern AI applications
+- **📐 Statistics & Mathematics** - Essential statistical concepts and mathematical foundations
+- **🚀 Production & Deployment** - Best practices for deploying models and creating data pipelines
+- **💼 Career Preparation** - Portfolio development, interview preparation, and industry insights
 
 ---
 
@@ -84,27 +66,29 @@ Each module can be used independently. See the README in each folder for specifi
 
 ## 🗺️ Learning Path
 
-### Module 1 Learning Path (4-5 weeks)
+### Complete Program Path (6 months)
 ```mermaid
 graph LR
-    A[🔧 Installation Kit<br/>1-2 hours] --> B[🐍 Python Fundamentals<br/>3 weeks]
-    B --> C[📊 Intro to Data Science<br/>2-3 weeks]  
-    C --> D[📈 Ready for Advanced Modules]
+    A[🔧 Environment Setup<br/>1-2 hours] --> B[🐍 Python Fundamentals<br/>3-4 weeks]
+    B --> C[📊 Data Science Core<br/>8 weeks]  
+    C --> D[🤖 Machine Learning<br/>8 weeks]
+    D --> E[🧠 Advanced Topics<br/>6 weeks]
+    E --> F[💼 Job Ready!]
 ```
 
-### Alternative Paths
+### Flexible Learning Options
 
-**🏃‍♀️ Accelerated Track (2-3 weeks)**
-- Skip Python Fundamentals if you have programming experience
-- Jump directly to Introduction to Data Science
+**🏃‍♀️ Accelerated Track**
+- For those with programming experience
+- Focus on data science specific modules
 
-**👨‍🏫 Instructor-Led Course**
-- Use Python Fundamentals for teaching beginners
-- Integrate with your existing curriculum
+**👨‍🏫 Instructor-Led Bootcamp**
+- Full 6-month structured program
+- Live sessions with hands-on projects
 
-**🔬 Self-Study Data Science**
-- Start with Introduction to Data Science
-- Use as preparation for advanced modules
+**🔬 Self-Paced Learning**
+- Work through materials at your own speed
+- Access to all resources and exercises
 
 ---
 
@@ -117,16 +101,16 @@ graph LR
 - **Git & GitHub** - Version control and collaboration
 - **Conda/Miniconda** - Package and environment management
 
-### Data Science Libraries (Foundational)
+### Data Science Libraries
 - **Data Manipulation**: pandas, numpy
 - **Visualization**: matplotlib, seaborn, plotly
-- **Interactive Widgets**: ipywidgets
-- **Basic Statistics**: scipy
+- **Machine Learning**: scikit-learn, tensorflow, pytorch
+- **Statistics**: scipy, statsmodels
 
 ### Development Tools
-- **Code Quality**: black, flake8, isort (where available)
-- **Documentation**: Jupyter notebooks with markdown
+- **Interactive Development**: Jupyter notebooks and JupyterLab
 - **Version Control**: Git and GitHub
+- **Code Quality**: Best practices and style guidelines
 
 ---
 
@@ -147,24 +131,24 @@ graph LR
 
 ---
 
-## 🎓 Learning Outcomes
+## 🎓 Program Learning Outcomes
 
-Upon completion of Module 1, students will be able to:
+Upon completion of the full bootcamp, graduates will be able to:
 
 ### Technical Skills
-- ✅ **Program in Python** with confidence using core language features
-- ✅ **Work with data structures** like lists, dictionaries, and files
-- ✅ **Create basic data analysis** scripts and visualizations
-- ✅ **Apply programming logic** with conditionals, loops, and functions
-- ✅ **Handle errors** and debug common programming issues
-- ✅ **Use Jupyter notebooks** for interactive development
+- ✅ **Program confidently in Python** for data science applications
+- ✅ **Analyze and visualize data** using industry-standard tools
+- ✅ **Build and deploy machine learning models** from scratch
+- ✅ **Apply statistical methods** to real-world problems
+- ✅ **Work with databases** and big data technologies
+- ✅ **Implement deep learning** solutions for complex problems
 
 ### Professional Skills
-- ✅ **Follow coding best practices** and write readable code
-- ✅ **Think algorithmically** and break down complex problems
-- ✅ **Use Git and GitHub** for version control
-- ✅ **Document work clearly** for future reference
-- ✅ **Build foundational skills** for data science specialization
+- ✅ **Communicate insights effectively** to technical and non-technical audiences
+- ✅ **Manage end-to-end data science projects**
+- ✅ **Collaborate using version control** and agile methodologies
+- ✅ **Build a professional portfolio** showcasing diverse projects
+- ✅ **Navigate the job market** with confidence and preparation
 
 ---
 
@@ -193,15 +177,15 @@ We welcome contributions from the community! See our [Contributing Guidelines](C
 
 ---
 
-## 📊 Repository Stats
+## 📊 Program Overview
 
-- **📁 4 foundational components** for Module 1
-- **📓 15+ Jupyter notebooks** with interactive content
-- **📊 10+ datasets** for hands-on practice
-- **🖼️ 75+ educational images** and visualizations
-- **⚡ 15+ verification scripts** ensuring smooth setup
-- **📚 30+ hours** of structured learning content in Module 1
-- **🎯 5+ projects** building core skills
+- **⏱️ Duration**: 6 months (240 hours total)
+- **📅 Schedule**: Part-time compatible (10-15 hours/week)
+- **🎯 Projects**: 15+ hands-on projects across all modules
+- **📊 Datasets**: Real-world and synthetic data for practice
+- **🛠️ Tools**: Industry-standard data science stack
+- **💼 Career Support**: Portfolio development and job preparation
+- **🎓 Certificate**: Completion certificate upon graduation
 
 ---
 
