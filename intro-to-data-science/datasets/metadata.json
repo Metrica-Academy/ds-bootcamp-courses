@@ -1,0 +1,41 @@
+{
+  "created_date": "2025-08-11T10:45:49.818783",
+  "datasets": {
+    "mystery_shopper": {
+      "rows": 100,
+      "columns": 8
+    },
+    "netflix_viewing": {
+      "rows": 5000,
+      "columns": 8
+    },
+    "covid_healthcare": {
+      "rows": 2000,
+      "columns": 11
+    },
+    "retail_transactions": {
+      "rows": 10000,
+      "columns": 10
+    },
+    "fraud_detection": {
+      "rows": 10000,
+      "columns": 10
+    },
+    "spotify_music": {
+      "rows": 1000,
+      "columns": 14
+    },
+    "weather_patterns": {
+      "rows": 3650,
+      "columns": 8
+    },
+    "movie_ratings": {
+      "rows": 5000,
+      "columns": 6
+    },
+    "social_media": {
+      "rows": 2000,
+      "columns": 13
+    }
+  }
+}

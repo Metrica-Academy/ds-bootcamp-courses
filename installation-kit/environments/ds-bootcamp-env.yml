@@ -1,0 +1,53 @@
+# Data Science Bootcamp - Conda Environment Configuration
+# This file contains all the packages needed for the bootcamp
+# Use this with: conda env create -f ds-bootcamp-env.yml
+
+name: ds-bootcamp
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python=3.9
+
+  # Core data science libraries
+  - pandas=1.5.3
+  - numpy=1.26.4
+  - matplotlib>=3.5.0,<4.0.0
+  - seaborn>=0.11.0
+  - plotly>=5.10.0
+
+  # Machine learning
+  - scikit-learn>=1.1.0
+
+  # Scientific computing
+  - scipy>=1.8.0,<2.0.0
+
+  # Jupyter environment
+  - jupyter>=1.0.0
+  - notebook>=7.0.0
+  - jupyterlab>=4.0.0
+  - ipykernel>=6.0.0
+
+  # Interactive widgets for Jupyter
+  - ipywidgets>=8.0.0
+  - widgetsnbextension>=4.0.0
+  - jupyterlab_widgets>=3.0.0
+
+  # Additional utilities
+  - lxml>=4.9.0
+  - beautifulsoup4>=4.11.0
+
+  # Pip dependencies (packages not available via conda)
+  - pip
+  - pip:
+    - jupyter_contrib_nbextensions>=0.7.0
+    - jupyter_nbextensions_configurator>=0.6.0
+    - wordcloud>=1.8.0
+
+# Post-installation commands (run manually after environment activation):
+# jupyter contrib nbextension install --user
+# jupyter nbextensions_configurator enable --user
+# jupyter nbextension enable --py widgetsnbextension --sys-prefix

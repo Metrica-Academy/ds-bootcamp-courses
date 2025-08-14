@@ -1,0 +1,2001 @@
+patient_id,age,gender,temperature,oxygen_level,cough,fatigue,breathing_difficulty,existing_conditions,test_result,hospitalized
+P00000,43,F,98.5,100.0,1,0,0,Heart Disease,Negative,0
+P00001,35,M,97.5,95.0,1,0,0,None,Positive,0
+P00002,44,F,101.1,92.0,0,0,1,None,Negative,1
+P00003,76,M,98.2,100.0,0,1,0,None,Negative,0
+P00004,38,F,97.4,93.0,1,1,0,None,Positive,0
+P00005,57,F,98.6,96.0,1,0,1,None,Positive,1
+P00006,53,M,98.9,100.0,1,1,0,Diabetes,Positive,0
+P00007,33,M,100.5,100.0,1,0,0,None,Positive,0
+P00008,56,M,97.4,91.0,1,1,0,Hypertension,Negative,0
+P00009,51,F,99.7,100.0,1,1,1,None,Positive,1
+P00010,17,M,101.2,92.0,1,1,1,Heart Disease,Positive,1
+P00011,48,F,100.3,99.0,0,1,1,None,Positive,1
+P00012,66,M,101.3,98.0,1,1,1,Hypertension,Positive,1
+P00013,39,M,98.6,95.0,1,1,1,Hypertension,Positive,1
+P00014,70,M,99.5,88.0,0,0,1,Diabetes,Positive,1
+P00015,37,M,97.4,90.0,1,0,0,Heart Disease,Positive,0
+P00016,50,M,102.3,100.0,1,0,1,Multiple,Positive,1
+P00017,31,M,99.9,97.0,0,1,0,None,Negative,0
+P00018,42,M,98.9,98.0,1,1,0,None,Negative,0
+P00019,67,M,98.5,94.0,0,1,1,Heart Disease,Positive,1
+P00020,94,F,95.4,93.0,0,0,1,None,Negative,1
+P00021,45,F,95.3,97.0,1,1,0,Diabetes,Positive,0
+P00022,63,F,97.0,93.0,0,0,0,Diabetes,Positive,0
+P00023,66,M,97.8,97.0,1,1,0,Diabetes,Positive,0
+P00024,26,F,99.6,89.0,1,1,0,None,Positive,1
+P00025,23,F,99.8,95.0,1,0,0,None,Positive,0
+P00026,44,M,98.6,91.0,1,1,1,Hypertension,Positive,1
+P00027,43,M,99.1,96.0,1,0,0,Diabetes,Negative,0
+P00028,29,F,98.3,90.0,0,0,0,None,Negative,0
+P00029,53,F,100.2,100.0,1,0,0,Heart Disease,Positive,0
+P00030,34,F,97.5,87.0,1,0,0,Hypertension,Positive,1
+P00031,25,F,98.1,100.0,0,0,0,None,Positive,0
+P00032,78,M,98.9,93.0,1,1,1,None,Negative,1
+P00033,48,M,97.4,98.0,1,1,0,Heart Disease,Negative,0
+P00034,61,F,96.4,97.0,1,0,1,Hypertension,Positive,1
+P00035,35,F,99.1,92.0,0,0,0,Multiple,Negative,0
+P00036,19,F,102.0,93.0,0,0,1,Hypertension,Positive,1
+P00037,35,F,98.8,100.0,0,1,1,None,Negative,1
+P00038,70,M,99.7,96.0,0,0,1,None,Negative,1
+P00039,57,M,98.1,94.0,0,0,0,None,Negative,0
+P00040,68,F,99.2,93.0,1,0,1,Heart Disease,Negative,1
+P00041,30,M,96.5,94.0,1,0,0,None,Positive,0
+P00042,72,F,97.0,100.0,0,1,0,None,Negative,0
+P00043,59,F,99.5,100.0,1,0,0,Diabetes,Positive,0
+P00044,23,F,98.2,100.0,1,0,0,None,Negative,0
+P00045,60,M,96.1,100.0,1,1,0,None,Positive,0
+P00046,42,M,98.0,91.0,1,1,0,None,Negative,0
+P00047,52,F,100.0,95.0,1,1,1,Diabetes,Negative,1
+P00048,39,F,97.7,92.0,1,1,0,Heart Disease,Positive,0
+P00049,32,M,95.2,99.0,0,1,0,Diabetes,Negative,0
+P00050,44,M,101.2,94.0,1,1,1,Multiple,Positive,1
+P00051,50,F,98.8,93.0,1,1,0,Diabetes,Positive,0
+P00052,35,F,101.0,93.0,1,1,0,None,Positive,0
+P00053,95,F,99.1,91.0,1,1,1,None,Positive,1
+P00054,26,F,97.6,99.0,1,1,0,Hypertension,Negative,0
+P00055,66,M,99.1,98.0,1,1,0,None,Positive,0
+P00056,15,M,99.1,91.0,1,0,0,Heart Disease,Negative,0
+P00057,45,M,101.4,100.0,1,1,0,Heart Disease,Negative,0
+P00058,25,M,100.5,97.0,0,1,0,Hypertension,Negative,0
+P00059,54,M,99.6,90.0,1,1,0,None,Negative,0
+P00060,37,M,99.2,90.0,0,1,0,None,Positive,0
+P00061,17,F,98.7,90.0,0,1,0,Diabetes,Negative,0
+P00062,41,M,97.7,100.0,1,1,1,Multiple,Negative,1
+P00063,34,F,100.2,100.0,0,0,0,Hypertension,Positive,0
+P00064,39,M,98.0,81.0,0,0,1,None,Negative,1
+P00065,40,M,98.2,89.0,1,1,0,None,Positive,1
+P00066,33,M,98.7,100.0,0,1,1,None,Negative,1
+P00067,63,M,97.7,94.0,0,0,0,None,Negative,0
+P00068,95,F,97.9,100.0,0,0,0,Heart Disease,Negative,0
+P00069,48,F,98.6,95.0,1,1,0,None,Positive,0
+P00070,55,F,98.5,97.0,0,1,0,None,Positive,0
+P00071,33,M,100.8,100.0,1,0,1,None,Positive,1
+P00072,77,M,96.3,95.0,1,1,1,None,Positive,1
+P00073,30,M,99.4,91.0,0,1,0,None,Positive,0
+P00074,43,F,97.9,98.0,0,1,0,Heart Disease,Negative,0
+P00075,48,F,98.1,93.0,1,1,1,Diabetes,Positive,1
+P00076,72,M,95.0,100.0,0,0,1,None,Positive,1
+P00077,18,M,97.5,94.0,1,1,0,None,Positive,0
+P00078,32,F,99.4,98.0,0,1,0,None,Negative,0
+P00079,54,M,97.6,100.0,0,1,0,Heart Disease,Positive,0
+P00080,47,F,97.9,100.0,0,0,0,None,Positive,0
+P00081,52,M,98.1,100.0,1,1,0,None,Negative,0
+P00082,28,F,98.9,100.0,1,0,0,Diabetes,Positive,0
+P00083,45,F,101.1,95.0,1,1,0,Hypertension,Positive,0
+P00084,39,F,98.5,99.0,1,1,1,None,Positive,1
+P00085,62,F,102.9,86.0,1,1,0,None,Positive,1
+P00086,35,F,102.5,98.0,1,1,1,None,Positive,1
+P00087,31,M,101.1,98.0,0,1,1,Heart Disease,Positive,1
+P00088,41,M,100.1,99.0,0,0,1,Diabetes,Negative,1
+P00089,67,F,99.1,99.0,1,1,0,None,Positive,0
+P00090,26,F,100.9,100.0,1,1,0,None,Negative,0
+P00091,55,M,101.8,93.0,1,1,0,None,Positive,0
+P00092,39,F,98.8,94.0,1,0,0,Hypertension,Positive,0
+P00093,24,F,99.0,99.0,0,1,0,None,Negative,0
+P00094,16,F,99.8,86.0,0,0,0,Diabetes,Negative,1
+P00095,69,F,98.4,88.0,0,1,0,Hypertension,Positive,1
+P00096,56,M,100.8,92.0,0,0,0,None,Positive,0
+P00097,31,M,96.8,93.0,0,0,0,None,Negative,0
+P00098,10,M,99.1,97.0,0,1,1,None,Positive,1
+P00099,43,M,96.8,100.0,1,1,1,Multiple,Positive,1
+P00100,88,F,98.5,93.0,0,1,0,None,Negative,0
+P00101,35,M,97.5,97.0,1,1,1,None,Positive,1
+P00102,95,M,98.5,87.0,0,1,0,None,Negative,1
+P00103,82,M,96.1,93.0,0,1,1,None,Negative,1
+P00104,69,F,99.5,99.0,1,1,1,Hypertension,Positive,1
+P00105,45,F,98.0,93.0,0,1,0,Diabetes,Positive,0
+P00106,49,M,100.2,92.0,1,1,0,None,Positive,0
+P00107,80,M,98.5,85.0,1,0,1,Multiple,Negative,1
+P00108,55,F,99.9,91.0,1,1,0,Heart Disease,Positive,0
+P00109,51,F,97.9,100.0,1,1,0,Multiple,Positive,0
+P00110,42,M,99.8,93.0,1,1,0,Heart Disease,Positive,0
+P00111,43,M,101.8,95.0,0,1,0,Heart Disease,Positive,0
+P00112,19,M,97.5,91.0,1,0,1,Heart Disease,Positive,1
+P00113,18,F,99.8,94.0,1,1,0,None,Positive,0
+P00114,49,M,96.7,100.0,0,1,0,None,Positive,0
+P00115,55,M,98.4,93.0,0,1,1,Diabetes,Positive,1
+P00116,32,M,95.8,91.0,0,1,0,None,Positive,0
+P00117,41,M,99.6,100.0,1,1,0,Heart Disease,Negative,0
+P00118,44,M,97.7,95.0,1,1,0,Multiple,Positive,0
+P00119,46,F,99.7,94.0,0,1,0,Diabetes,Negative,0
+P00120,41,F,99.1,96.0,0,0,1,Hypertension,Negative,1
+P00121,38,F,98.2,100.0,0,1,0,None,Positive,0
+P00122,33,F,99.8,96.0,0,1,1,Hypertension,Positive,1
+P00123,46,F,100.2,92.0,0,1,0,Hypertension,Negative,0
+P00124,65,F,98.0,96.0,0,1,0,Hypertension,Negative,0
+P00125,37,F,100.3,87.0,1,1,0,Diabetes,Positive,1
+P00126,71,F,98.3,90.0,1,1,0,Hypertension,Positive,0
+P00127,47,F,94.5,97.0,0,0,0,Multiple,Negative,0
+P00128,48,M,98.9,95.0,1,1,0,Hypertension,Positive,0
+P00129,54,M,97.6,97.0,0,1,1,Diabetes,Positive,1
+P00130,34,F,98.0,97.0,1,1,1,Hypertension,Positive,1
+P00131,63,F,95.6,99.0,0,0,0,None,Negative,0
+P00132,33,M,99.0,96.0,1,1,1,None,Negative,1
+P00133,41,M,97.6,100.0,0,1,0,None,Positive,0
+P00134,35,M,97.8,97.0,1,1,0,None,Positive,0
+P00135,27,F,100.2,98.0,1,0,0,Diabetes,Positive,0
+P00136,37,M,95.4,91.0,1,0,1,Heart Disease,Negative,1
+P00137,48,F,99.2,91.0,0,0,1,Hypertension,Negative,1
+P00138,56,F,99.2,92.0,1,1,0,Heart Disease,Positive,0
+P00139,44,M,99.0,100.0,1,1,0,Heart Disease,Positive,0
+P00140,28,F,100.3,100.0,0,1,1,Heart Disease,Positive,1
+P00141,80,M,99.9,91.0,1,1,0,Heart Disease,Positive,0
+P00142,77,M,98.8,95.0,0,1,0,None,Positive,0
+P00143,42,M,97.5,91.0,0,0,1,Multiple,Negative,1
+P00144,42,M,97.9,91.0,1,0,0,Diabetes,Positive,0
+P00145,20,M,98.6,100.0,1,1,0,Diabetes,Negative,0
+P00146,60,M,95.1,88.0,1,0,0,Hypertension,Positive,1
+P00147,57,M,97.8,97.0,1,1,0,None,Positive,0
+P00148,40,M,100.4,95.0,1,0,0,None,Positive,0
+P00149,24,F,98.0,100.0,1,1,1,None,Positive,1
+P00150,57,M,99.8,96.0,1,1,0,Hypertension,Positive,0
+P00151,37,F,99.9,100.0,0,1,0,Heart Disease,Positive,0
+P00152,68,M,100.4,95.0,0,1,0,None,Negative,0
+P00153,34,F,98.1,100.0,1,1,1,None,Positive,1
+P00154,40,M,98.2,96.0,1,1,0,Diabetes,Positive,0
+P00155,50,F,99.1,95.0,1,1,0,Hypertension,Positive,0
+P00156,20,F,97.4,100.0,1,1,0,None,Positive,0
+P00157,71,F,97.5,95.0,0,1,1,Diabetes,Negative,1
+P00158,74,F,100.1,96.0,1,0,0,Hypertension,Negative,0
+P00159,37,M,97.6,92.0,0,1,0,Diabetes,Positive,0
+P00160,63,F,99.4,95.0,0,0,0,None,Positive,0
+P00161,64,F,99.2,82.0,1,1,1,Heart Disease,Positive,1
+P00162,45,M,98.6,93.0,0,0,0,Heart Disease,Negative,0
+P00163,95,F,99.0,97.0,1,1,1,Hypertension,Positive,1
+P00164,16,M,99.6,94.0,0,1,0,Hypertension,Negative,0
+P00165,28,M,100.8,94.0,1,0,0,None,Positive,0
+P00166,67,F,97.2,98.0,1,0,0,None,Negative,0
+P00167,34,M,97.1,100.0,1,1,1,Multiple,Positive,1
+P00168,30,M,98.5,93.0,1,1,0,Diabetes,Positive,0
+P00169,53,M,99.1,99.0,0,1,0,Heart Disease,Positive,0
+P00170,34,F,99.0,95.0,1,1,0,Hypertension,Positive,0
+P00171,64,F,101.2,98.0,0,1,0,Heart Disease,Positive,0
+P00172,62,F,97.2,100.0,1,1,0,Heart Disease,Positive,0
+P00173,44,F,96.1,100.0,1,1,0,None,Negative,0
+P00174,32,F,99.4,100.0,1,1,0,Diabetes,Negative,0
+P00175,49,M,98.9,93.0,0,1,0,Heart Disease,Negative,0
+P00176,33,M,98.4,95.0,0,1,0,Hypertension,Positive,0
+P00177,39,F,99.8,90.0,1,1,0,None,Positive,0
+P00178,57,F,96.1,92.0,0,0,0,None,Negative,0
+P00179,56,M,96.0,96.0,1,1,0,None,Positive,0
+P00180,28,M,95.6,92.0,0,1,1,None,Positive,1
+P00181,43,M,97.5,96.0,0,1,0,Heart Disease,Negative,0
+P00182,50,F,100.4,93.0,1,1,0,None,Negative,0
+P00183,48,M,96.4,96.0,1,1,1,None,Positive,1
+P00184,33,F,98.7,98.0,1,0,1,None,Negative,1
+P00185,41,F,99.1,98.0,0,0,0,Diabetes,Negative,0
+P00186,72,M,100.9,97.0,1,1,1,Multiple,Positive,1
+P00187,46,M,97.3,100.0,0,1,1,Heart Disease,Negative,1
+P00188,67,F,97.2,86.0,1,1,0,None,Positive,1
+P00189,47,F,100.2,95.0,1,1,0,Diabetes,Negative,0
+P00190,75,M,97.0,99.0,1,1,1,None,Positive,1
+P00191,62,M,100.4,85.0,1,1,0,Hypertension,Negative,1
+P00192,77,F,99.1,100.0,1,0,0,None,Positive,0
+P00193,25,M,96.0,93.0,0,1,0,None,Positive,0
+P00194,45,F,99.6,92.0,0,1,0,None,Negative,0
+P00195,32,M,99.3,99.0,0,1,1,Diabetes,Negative,1
+P00196,32,M,98.2,91.0,1,0,1,None,Positive,1
+P00197,74,F,97.7,100.0,1,1,1,None,Positive,1
+P00198,76,M,101.0,95.0,1,1,0,None,Negative,0
+P00199,55,M,94.9,100.0,0,1,0,Heart Disease,Negative,0
+P00200,41,F,96.3,100.0,0,1,0,None,Positive,0
+P00201,80,F,97.8,96.0,1,0,0,None,Positive,0
+P00202,21,M,99.3,92.0,1,0,1,None,Negative,1
+P00203,63,F,98.6,100.0,0,1,0,Hypertension,Positive,0
+P00204,55,M,97.5,87.0,1,1,0,None,Positive,1
+P00205,43,F,99.4,93.0,0,1,0,Diabetes,Positive,0
+P00206,36,F,96.0,99.0,1,0,0,None,Negative,0
+P00207,49,F,99.1,88.0,1,1,0,Heart Disease,Negative,1
+P00208,44,M,98.1,89.0,1,1,1,None,Negative,1
+P00209,50,M,99.6,94.0,1,0,1,Multiple,Positive,1
+P00210,28,M,99.3,96.0,0,0,0,None,Negative,0
+P00211,95,F,99.7,86.0,1,0,0,None,Positive,1
+P00212,75,F,97.7,100.0,1,0,0,Diabetes,Positive,0
+P00213,38,M,97.5,94.0,1,0,1,Diabetes,Negative,1
+P00214,49,M,98.9,99.0,1,0,0,None,Positive,0
+P00215,74,F,96.4,91.0,1,1,1,None,Positive,1
+P00216,45,M,101.9,93.0,1,0,0,None,Positive,0
+P00217,53,M,101.0,97.0,0,1,0,None,Negative,0
+P00218,62,M,96.3,96.0,1,0,0,Diabetes,Positive,0
+P00219,67,F,98.9,98.0,0,1,0,Hypertension,Negative,0
+P00220,40,M,100.4,99.0,0,1,0,Hypertension,Negative,0
+P00221,40,F,98.0,89.0,1,1,0,Multiple,Positive,1
+P00222,48,M,97.5,96.0,1,1,0,Diabetes,Positive,0
+P00223,88,M,100.4,94.0,1,1,1,Diabetes,Positive,1
+P00224,52,F,100.6,97.0,1,0,0,None,Negative,0
+P00225,41,F,96.2,93.0,0,1,0,Hypertension,Positive,0
+P00226,27,F,98.8,95.0,0,0,0,None,Positive,0
+P00227,56,M,98.4,100.0,0,0,0,None,Negative,0
+P00228,44,M,96.0,89.0,0,1,0,Multiple,Negative,1
+P00229,51,M,96.2,93.0,0,0,0,Heart Disease,Negative,0
+P00230,46,M,97.2,83.0,0,1,0,None,Negative,1
+P00231,67,M,98.6,92.0,1,0,0,None,Negative,0
+P00232,73,M,100.5,89.0,1,0,0,None,Positive,1
+P00233,53,F,94.4,100.0,1,1,0,None,Positive,0
+P00234,49,F,98.8,93.0,1,1,0,Hypertension,Positive,0
+P00235,18,M,97.2,93.0,0,0,0,Multiple,Negative,0
+P00236,44,F,99.4,98.0,0,0,0,None,Negative,0
+P00237,39,F,100.1,90.0,0,0,1,None,Negative,1
+P00238,34,M,100.2,99.0,0,1,0,Heart Disease,Positive,0
+P00239,70,F,98.5,99.0,0,1,0,None,Positive,0
+P00240,63,M,98.1,100.0,0,1,0,None,Negative,0
+P00241,69,F,100.6,98.0,1,0,0,Hypertension,Positive,0
+P00242,14,M,98.1,86.0,1,1,0,None,Positive,1
+P00243,32,F,98.7,100.0,0,0,1,Multiple,Positive,1
+P00244,61,F,97.9,100.0,1,1,0,None,Positive,0
+P00245,33,M,99.1,95.0,0,1,0,None,Positive,0
+P00246,73,M,96.5,95.0,0,1,0,Hypertension,Positive,0
+P00247,50,F,98.2,93.0,0,1,0,None,Positive,0
+P00248,95,M,98.7,87.0,0,0,0,Diabetes,Positive,1
+P00249,57,F,100.2,97.0,1,1,0,None,Positive,0
+P00250,54,M,98.3,92.0,1,0,1,Hypertension,Positive,1
+P00251,45,F,94.9,97.0,0,1,0,Diabetes,Negative,0
+P00252,46,F,97.7,97.0,1,0,0,None,Positive,0
+P00253,31,M,100.8,100.0,0,1,0,None,Positive,0
+P00254,29,M,98.8,93.0,1,1,1,None,Negative,1
+P00255,86,F,97.5,89.0,0,0,0,None,Positive,1
+P00256,56,M,97.1,96.0,0,0,0,Hypertension,Positive,0
+P00257,52,F,99.2,95.0,0,0,0,Hypertension,Negative,0
+P00258,43,M,97.6,100.0,0,1,0,Heart Disease,Positive,0
+P00259,52,M,98.6,99.0,1,1,0,Multiple,Negative,0
+P00260,65,M,97.5,94.0,0,0,0,Diabetes,Positive,0
+P00261,45,M,97.3,100.0,1,1,1,None,Negative,1
+P00262,55,F,98.0,100.0,1,0,0,Heart Disease,Negative,0
+P00263,81,M,98.4,90.0,0,1,1,Diabetes,Positive,1
+P00264,42,F,98.5,97.0,0,1,0,None,Negative,0
+P00265,54,F,98.2,100.0,1,0,1,None,Negative,1
+P00266,67,F,100.2,88.0,0,0,0,Heart Disease,Positive,1
+P00267,41,M,98.0,91.0,1,1,0,None,Positive,0
+P00268,29,F,100.8,94.0,1,1,0,Diabetes,Positive,0
+P00269,61,F,98.4,98.0,1,1,1,None,Positive,1
+P00270,48,M,97.6,97.0,1,1,0,None,Positive,0
+P00271,28,M,99.0,96.0,1,1,1,None,Positive,1
+P00272,42,F,99.7,94.0,1,1,0,Hypertension,Negative,0
+P00273,37,M,97.4,97.0,1,0,1,None,Positive,1
+P00274,34,F,96.4,100.0,0,1,0,None,Negative,0
+P00275,67,F,100.1,100.0,1,1,1,None,Positive,1
+P00276,37,F,100.6,100.0,0,1,0,Multiple,Positive,0
+P00277,82,F,99.4,100.0,1,1,0,None,Positive,0
+P00278,48,M,97.5,95.0,1,1,0,None,Positive,0
+P00279,30,F,98.4,100.0,1,0,0,None,Negative,0
+P00280,54,M,96.8,88.0,0,1,0,None,Positive,1
+P00281,77,M,100.1,96.0,0,1,0,Heart Disease,Positive,0
+P00282,35,F,98.9,99.0,1,1,0,None,Positive,0
+P00283,58,F,99.3,95.0,1,1,0,Heart Disease,Negative,0
+P00284,42,F,98.8,100.0,1,0,1,Diabetes,Positive,1
+P00285,23,M,98.6,94.0,1,1,1,None,Positive,1
+P00286,25,M,98.9,100.0,1,1,0,None,Negative,0
+P00287,65,M,98.6,96.0,0,1,0,None,Positive,0
+P00288,72,F,100.4,93.0,1,1,1,None,Positive,1
+P00289,28,F,96.5,92.0,0,0,0,None,Negative,0
+P00290,44,F,97.3,96.0,0,1,0,Hypertension,Negative,0
+P00291,59,M,98.1,92.0,1,1,1,Diabetes,Negative,1
+P00292,95,M,98.3,81.0,1,0,0,None,Positive,1
+P00293,66,F,100.1,86.0,0,0,1,None,Positive,1
+P00294,85,F,96.6,93.0,0,1,0,Diabetes,Positive,0
+P00295,54,M,99.4,93.0,1,1,0,Hypertension,Positive,0
+P00296,23,F,98.4,100.0,1,1,0,Hypertension,Positive,0
+P00297,22,F,99.9,97.0,0,1,0,Diabetes,Negative,0
+P00298,45,F,99.2,96.0,1,1,1,Diabetes,Positive,1
+P00299,58,M,98.4,91.0,1,0,0,None,Positive,0
+P00300,36,M,97.1,100.0,0,0,0,Heart Disease,Negative,0
+P00301,29,F,99.1,95.0,1,1,1,Hypertension,Positive,1
+P00302,56,M,98.0,100.0,1,1,1,None,Positive,1
+P00303,81,M,98.4,95.0,1,0,0,None,Positive,0
+P00304,79,F,99.8,98.0,1,0,0,None,Positive,0
+P00305,43,F,100.8,88.0,1,1,0,Hypertension,Negative,1
+P00306,17,F,96.2,97.0,1,1,0,None,Positive,0
+P00307,40,F,99.8,96.0,1,1,1,Heart Disease,Negative,1
+P00308,75,F,100.5,96.0,1,1,1,None,Negative,1
+P00309,37,M,98.4,100.0,0,1,0,Heart Disease,Positive,0
+P00310,33,M,96.9,87.0,1,1,0,Diabetes,Positive,1
+P00311,51,M,99.1,93.0,0,1,1,Heart Disease,Negative,1
+P00312,59,M,98.3,85.0,0,1,0,Diabetes,Positive,1
+P00313,57,M,103.9,94.0,1,0,0,None,Negative,1
+P00314,48,F,99.1,100.0,1,1,0,Diabetes,Positive,0
+P00315,21,F,97.9,100.0,1,1,1,None,Positive,1
+P00316,76,F,96.4,94.0,1,1,1,None,Negative,1
+P00317,36,F,97.1,96.0,1,1,0,None,Negative,0
+P00318,42,M,99.9,93.0,0,1,1,Diabetes,Positive,1
+P00319,35,F,96.0,95.0,1,1,0,Hypertension,Negative,0
+P00320,49,F,96.1,100.0,1,1,1,None,Positive,1
+P00321,39,F,100.1,100.0,0,0,1,None,Positive,1
+P00322,49,F,98.0,99.0,0,0,1,Hypertension,Positive,1
+P00323,66,F,98.2,95.0,0,0,1,Diabetes,Positive,1
+P00324,38,M,99.5,100.0,0,0,0,Hypertension,Positive,0
+P00325,25,F,98.2,98.0,1,0,0,None,Negative,0
+P00326,40,M,96.2,94.0,1,1,0,None,Positive,0
+P00327,40,M,97.6,94.0,1,0,0,Hypertension,Negative,0
+P00328,40,F,99.3,93.0,0,1,0,Heart Disease,Negative,0
+P00329,29,M,98.7,99.0,0,1,1,None,Positive,1
+P00330,54,M,100.8,97.0,1,1,0,None,Negative,0
+P00331,45,F,99.2,96.0,1,1,0,Hypertension,Positive,0
+P00332,36,M,97.3,92.0,1,0,0,Hypertension,Positive,0
+P00333,26,M,100.7,100.0,1,1,1,None,Positive,1
+P00334,52,F,100.8,94.0,1,0,0,None,Negative,0
+P00335,43,F,97.5,100.0,0,1,1,Diabetes,Negative,1
+P00336,78,F,99.4,90.0,0,0,1,None,Negative,1
+P00337,15,M,99.6,98.0,1,1,1,None,Positive,1
+P00338,64,M,99.1,92.0,1,1,0,Hypertension,Positive,0
+P00339,71,M,96.5,98.0,1,0,1,None,Negative,1
+P00340,53,M,103.1,91.0,1,1,0,None,Positive,1
+P00341,43,F,98.0,89.0,1,1,1,None,Positive,1
+P00342,60,F,99.1,90.0,0,1,0,Diabetes,Positive,0
+P00343,48,M,100.0,87.0,1,0,0,None,Negative,1
+P00344,57,M,98.0,91.0,1,0,0,Diabetes,Positive,0
+P00345,27,M,100.5,99.0,1,1,0,Heart Disease,Positive,0
+P00346,39,M,98.6,91.0,1,0,1,Hypertension,Negative,1
+P00347,45,F,97.6,92.0,1,1,0,Diabetes,Negative,0
+P00348,48,M,96.5,97.0,0,1,0,None,Negative,0
+P00349,27,F,98.0,85.0,1,0,0,Hypertension,Positive,1
+P00350,34,F,99.1,98.0,1,1,0,Diabetes,Positive,0
+P00351,22,F,98.1,95.0,1,1,0,None,Negative,0
+P00352,40,M,99.6,97.0,1,1,0,None,Negative,0
+P00353,52,F,101.1,94.0,1,1,1,None,Positive,1
+P00354,64,F,98.1,94.0,1,1,0,None,Positive,0
+P00355,9,M,100.3,100.0,1,1,0,None,Negative,0
+P00356,70,M,98.9,95.0,0,1,0,None,Negative,0
+P00357,81,F,99.1,98.0,0,1,0,None,Negative,0
+P00358,57,M,98.6,100.0,1,0,1,None,Positive,1
+P00359,80,M,99.2,89.0,1,1,1,None,Positive,1
+P00360,54,M,97.4,92.0,1,1,1,Hypertension,Positive,1
+P00361,59,M,97.5,91.0,1,0,0,None,Negative,0
+P00362,38,F,97.7,93.0,0,1,1,Hypertension,Positive,1
+P00363,63,F,96.0,96.0,0,1,0,None,Positive,0
+P00364,40,M,96.8,91.0,1,0,0,Hypertension,Negative,0
+P00365,47,F,98.5,91.0,1,1,1,None,Positive,1
+P00366,48,F,97.7,93.0,1,1,1,Multiple,Positive,1
+P00367,48,F,98.5,100.0,1,1,0,Diabetes,Positive,0
+P00368,32,F,99.5,92.0,1,0,0,None,Negative,0
+P00369,37,M,99.0,95.0,1,0,0,None,Negative,0
+P00370,51,M,98.4,94.0,0,0,0,Hypertension,Positive,0
+P00371,37,M,95.8,94.0,1,1,1,None,Negative,1
+P00372,35,F,98.7,92.0,1,1,0,None,Positive,0
+P00373,38,M,97.6,83.0,0,0,1,None,Positive,1
+P00374,61,M,99.6,92.0,1,0,1,None,Positive,1
+P00375,47,M,97.4,96.0,1,0,1,None,Negative,1
+P00376,47,F,96.9,95.0,0,0,1,Heart Disease,Negative,1
+P00377,49,F,100.7,98.0,0,1,0,Diabetes,Positive,0
+P00378,60,F,95.9,88.0,0,1,0,None,Positive,1
+P00379,28,F,101.1,97.0,0,1,0,Heart Disease,Positive,0
+P00380,51,F,98.8,92.0,1,0,1,Diabetes,Positive,1
+P00381,15,M,98.1,91.0,1,0,0,None,Negative,0
+P00382,37,M,98.0,98.0,1,1,1,None,Positive,1
+P00383,43,F,99.9,99.0,0,1,0,Hypertension,Negative,0
+P00384,53,M,98.9,100.0,1,0,1,Diabetes,Negative,1
+P00385,46,M,98.9,98.0,0,1,1,Hypertension,Positive,1
+P00386,32,M,98.5,94.0,0,0,1,None,Positive,1
+P00387,69,M,97.9,88.0,1,0,1,Diabetes,Negative,1
+P00388,60,F,100.5,100.0,1,1,0,None,Negative,0
+P00389,65,M,97.9,96.0,1,0,0,Diabetes,Positive,0
+P00390,23,F,96.7,90.0,1,1,1,None,Positive,1
+P00391,87,F,99.1,96.0,1,1,1,Heart Disease,Positive,1
+P00392,36,F,96.5,88.0,0,1,0,Hypertension,Negative,1
+P00393,38,F,100.8,100.0,1,1,0,None,Positive,0
+P00394,39,M,99.2,93.0,0,1,1,None,Negative,1
+P00395,60,F,95.4,89.0,1,1,0,None,Negative,1
+P00396,49,M,99.2,100.0,1,1,0,Heart Disease,Positive,0
+P00397,28,M,98.0,88.0,0,1,0,Diabetes,Positive,1
+P00398,26,F,100.5,95.0,1,0,0,Diabetes,Positive,0
+P00399,36,F,98.4,96.0,1,1,0,Hypertension,Positive,0
+P00400,54,F,98.4,88.0,1,1,0,Multiple,Positive,1
+P00401,40,F,98.0,93.0,1,0,1,Heart Disease,Positive,1
+P00402,81,F,98.2,86.0,0,1,1,None,Positive,1
+P00403,25,M,95.5,93.0,0,1,0,Hypertension,Negative,0
+P00404,75,M,97.7,86.0,0,1,0,None,Negative,1
+P00405,36,F,97.1,99.0,1,1,0,None,Negative,0
+P00406,71,F,98.0,92.0,0,1,0,None,Negative,0
+P00407,65,F,100.2,89.0,1,1,0,Hypertension,Positive,1
+P00408,42,F,101.0,96.0,0,1,0,None,Positive,0
+P00409,32,F,98.9,86.0,1,1,0,None,Positive,1
+P00410,68,F,97.7,91.0,1,1,1,None,Negative,1
+P00411,37,M,96.5,99.0,1,0,0,None,Positive,0
+P00412,42,M,97.9,88.0,1,1,0,Diabetes,Positive,1
+P00413,77,F,96.7,94.0,1,1,1,Diabetes,Positive,1
+P00414,24,F,98.3,91.0,0,1,0,Heart Disease,Negative,0
+P00415,34,F,98.5,85.0,0,1,1,None,Positive,1
+P00416,46,F,98.9,89.0,1,0,0,None,Negative,1
+P00417,46,M,98.8,91.0,1,1,0,Heart Disease,Positive,0
+P00418,38,M,95.7,96.0,1,1,0,Hypertension,Positive,0
+P00419,55,F,97.2,100.0,0,1,0,None,Positive,0
+P00420,95,M,97.2,95.0,1,0,1,None,Negative,1
+P00421,66,F,97.9,96.0,1,1,1,None,Positive,1
+P00422,38,M,98.8,99.0,1,1,1,Heart Disease,Negative,1
+P00423,68,M,97.4,97.0,1,0,1,Diabetes,Positive,1
+P00424,51,F,103.3,92.0,1,1,0,Heart Disease,Positive,1
+P00425,31,F,100.4,92.0,1,1,0,None,Positive,0
+P00426,27,M,97.0,98.0,1,1,0,Hypertension,Positive,0
+P00427,27,M,100.6,97.0,0,1,0,Multiple,Positive,0
+P00428,32,M,101.1,96.0,0,1,0,None,Negative,0
+P00429,70,M,96.7,92.0,0,0,0,None,Positive,0
+P00430,24,M,96.8,100.0,1,0,1,Heart Disease,Positive,1
+P00431,48,F,98.8,91.0,1,0,1,None,Positive,1
+P00432,48,F,100.2,94.0,1,1,0,Diabetes,Negative,0
+P00433,54,M,99.1,100.0,1,1,0,Hypertension,Positive,0
+P00434,52,M,96.0,96.0,1,0,1,Diabetes,Negative,1
+P00435,89,M,97.4,95.0,0,1,1,None,Positive,1
+P00436,51,F,97.7,96.0,0,1,0,Heart Disease,Positive,0
+P00437,33,F,99.9,92.0,0,0,1,None,Positive,1
+P00438,81,F,96.5,95.0,1,0,0,None,Negative,0
+P00439,44,M,96.7,99.0,1,0,1,None,Positive,1
+P00440,44,M,98.7,100.0,0,1,1,None,Negative,1
+P00441,68,F,98.6,100.0,1,0,1,Hypertension,Negative,1
+P00442,24,F,100.0,91.0,1,1,0,Diabetes,Positive,0
+P00443,44,F,97.7,100.0,1,1,0,Multiple,Positive,0
+P00444,42,F,100.2,98.0,1,1,0,Hypertension,Negative,0
+P00445,31,M,100.0,100.0,1,1,0,None,Positive,0
+P00446,36,F,98.4,88.0,0,0,0,None,Negative,1
+P00447,52,M,97.8,91.0,0,1,0,None,Negative,0
+P00448,51,M,101.1,96.0,1,0,0,None,Positive,0
+P00449,56,M,99.3,99.0,0,1,0,Heart Disease,Positive,0
+P00450,38,M,98.2,93.0,0,1,0,Heart Disease,Positive,0
+P00451,30,M,97.1,93.0,1,1,1,Multiple,Positive,1
+P00452,43,M,100.6,90.0,1,1,1,Hypertension,Positive,1
+P00453,57,M,97.6,92.0,0,1,1,None,Positive,1
+P00454,89,F,97.8,93.0,1,1,1,Hypertension,Positive,1
+P00455,49,F,97.5,93.0,0,0,1,Hypertension,Positive,1
+P00456,77,F,98.0,90.0,1,1,1,Diabetes,Positive,1
+P00457,45,F,99.2,100.0,1,1,1,None,Positive,1
+P00458,53,M,97.8,100.0,1,1,0,None,Positive,0
+P00459,61,M,98.5,98.0,1,1,1,None,Negative,1
+P00460,81,M,97.5,100.0,1,1,0,None,Positive,0
+P00461,34,M,99.3,98.0,0,0,0,Diabetes,Positive,0
+P00462,51,F,98.4,100.0,1,0,0,Diabetes,Negative,0
+P00463,70,M,96.8,91.0,1,1,0,None,Positive,0
+P00464,24,F,98.4,84.0,1,1,1,None,Positive,1
+P00465,81,M,98.9,91.0,0,0,0,None,Positive,0
+P00466,46,F,98.0,86.0,1,1,0,None,Positive,1
+P00467,46,F,95.5,89.0,1,0,0,Hypertension,Negative,1
+P00468,71,F,100.5,92.0,1,1,0,None,Positive,0
+P00469,74,M,97.1,94.0,0,0,0,None,Positive,0
+P00470,62,F,99.5,100.0,0,0,0,None,Negative,0
+P00471,36,F,98.0,100.0,0,1,0,Heart Disease,Negative,0
+P00472,21,M,98.5,96.0,1,0,0,Heart Disease,Positive,0
+P00473,55,M,98.3,89.0,0,1,0,Diabetes,Positive,1
+P00474,38,F,100.1,92.0,0,1,1,Diabetes,Positive,1
+P00475,42,M,98.9,94.0,0,1,0,None,Positive,0
+P00476,94,F,98.8,93.0,0,1,0,None,Negative,0
+P00477,38,M,96.8,88.0,1,0,0,None,Negative,1
+P00478,9,F,100.8,100.0,1,1,0,Diabetes,Negative,0
+P00479,38,M,96.3,87.0,1,1,0,None,Negative,1
+P00480,56,M,100.6,92.0,1,0,1,Heart Disease,Positive,1
+P00481,85,F,95.9,96.0,1,1,0,None,Positive,0
+P00482,60,F,101.3,96.0,1,0,1,Heart Disease,Positive,1
+P00483,56,M,99.2,93.0,0,0,0,Diabetes,Negative,0
+P00484,33,M,97.8,97.0,1,0,0,Diabetes,Negative,0
+P00485,57,F,96.5,90.0,0,1,1,None,Positive,1
+P00486,23,M,98.6,94.0,0,0,0,None,Positive,0
+P00487,38,M,99.3,89.0,1,1,0,Hypertension,Positive,1
+P00488,62,F,98.7,91.0,1,1,1,None,Positive,1
+P00489,19,M,98.0,100.0,0,1,1,Heart Disease,Positive,1
+P00490,31,M,97.5,94.0,0,1,1,None,Positive,1
+P00491,53,F,100.4,94.0,1,0,0,Heart Disease,Negative,0
+P00492,94,F,98.1,93.0,0,1,0,None,Positive,0
+P00493,48,M,99.2,92.0,1,1,0,Hypertension,Positive,0
+P00494,67,M,99.4,95.0,1,0,1,Multiple,Positive,1
+P00495,93,F,96.7,100.0,1,1,0,Hypertension,Positive,0
+P00496,55,F,98.4,88.0,1,0,1,None,Positive,1
+P00497,78,F,100.6,90.0,0,0,0,None,Negative,0
+P00498,95,F,99.0,90.0,0,1,0,None,Negative,0
+P00499,20,F,99.3,84.0,1,1,0,Hypertension,Negative,1
+P00500,44,M,98.0,94.0,1,1,0,None,Negative,0
+P00501,44,M,100.2,94.0,1,1,0,Diabetes,Negative,0
+P00502,40,M,101.5,92.0,0,0,0,None,Negative,0
+P00503,22,F,97.4,98.0,1,1,1,None,Negative,1
+P00504,28,F,99.8,93.0,0,0,1,None,Negative,1
+P00505,32,F,96.5,94.0,1,0,1,Hypertension,Positive,1
+P00506,86,M,99.5,96.0,1,0,0,Hypertension,Positive,0
+P00507,39,M,99.3,93.0,1,1,0,None,Positive,0
+P00508,40,F,96.9,100.0,1,0,0,None,Positive,0
+P00509,51,M,100.0,93.0,1,0,0,Hypertension,Positive,0
+P00510,74,F,97.1,98.0,1,0,1,None,Positive,1
+P00511,40,M,101.5,95.0,1,1,0,None,Negative,0
+P00512,89,M,98.8,95.0,1,0,1,Hypertension,Positive,1
+P00513,23,F,98.4,99.0,1,0,1,Hypertension,Positive,1
+P00514,44,F,97.6,93.0,1,0,0,None,Positive,0
+P00515,33,F,99.5,95.0,1,1,0,None,Positive,0
+P00516,56,F,99.1,96.0,0,1,1,None,Positive,1
+P00517,24,F,98.8,92.0,1,0,0,None,Negative,0
+P00518,57,M,97.5,97.0,1,1,0,None,Positive,0
+P00519,42,M,98.2,100.0,0,1,0,None,Positive,0
+P00520,83,M,97.5,91.0,1,1,0,Hypertension,Negative,0
+P00521,67,F,96.0,92.0,1,1,1,Diabetes,Positive,1
+P00522,64,F,98.4,90.0,1,1,0,Hypertension,Negative,0
+P00523,51,F,96.9,100.0,0,1,0,None,Positive,0
+P00524,37,M,101.6,98.0,1,1,1,Multiple,Negative,1
+P00525,33,F,101.4,89.0,1,1,0,Hypertension,Positive,1
+P00526,39,F,99.1,88.0,1,1,1,None,Negative,1
+P00527,42,M,95.9,98.0,0,1,1,None,Negative,1
+P00528,39,M,99.3,100.0,1,1,0,None,Positive,0
+P00529,39,F,98.3,95.0,1,1,0,None,Positive,0
+P00530,38,M,100.3,88.0,0,1,0,None,Negative,1
+P00531,44,M,100.1,87.0,0,1,0,None,Positive,1
+P00532,46,F,97.5,93.0,0,1,0,None,Negative,0
+P00533,62,M,98.1,88.0,1,1,1,Hypertension,Negative,1
+P00534,32,M,97.9,94.0,0,1,1,Diabetes,Positive,1
+P00535,39,F,98.0,98.0,0,1,0,None,Positive,0
+P00536,47,M,96.2,96.0,1,1,1,None,Negative,1
+P00537,32,M,99.2,97.0,0,1,1,Diabetes,Positive,1
+P00538,22,M,98.7,96.0,1,1,0,None,Positive,0
+P00539,63,F,98.1,99.0,0,1,0,Heart Disease,Negative,0
+P00540,48,F,99.0,94.0,1,1,0,Heart Disease,Positive,0
+P00541,37,M,99.1,96.0,1,0,0,None,Negative,0
+P00542,60,F,100.3,100.0,0,1,1,None,Negative,1
+P00543,57,M,99.9,99.0,1,1,0,None,Negative,0
+P00544,55,M,100.1,89.0,1,1,0,Hypertension,Negative,1
+P00545,78,F,97.3,91.0,0,1,0,Diabetes,Positive,0
+P00546,36,F,96.9,89.0,1,1,0,Hypertension,Positive,1
+P00547,39,F,100.0,94.0,1,0,0,None,Positive,0
+P00548,44,F,101.2,79.0,0,1,1,Multiple,Negative,1
+P00549,62,M,99.9,98.0,1,0,0,Heart Disease,Positive,0
+P00550,19,M,99.1,90.0,1,0,0,None,Positive,0
+P00551,63,M,98.6,86.0,1,0,0,None,Negative,1
+P00552,42,F,102.9,100.0,1,1,1,Heart Disease,Negative,1
+P00553,35,F,99.8,91.0,0,1,0,None,Positive,0
+P00554,83,F,98.3,86.0,1,0,0,Heart Disease,Negative,1
+P00555,46,F,101.6,92.0,0,0,0,Hypertension,Negative,0
+P00556,75,M,101.2,100.0,1,1,0,None,Positive,0
+P00557,23,M,96.5,78.0,1,1,1,Hypertension,Positive,1
+P00558,18,F,96.8,100.0,0,1,1,None,Negative,1
+P00559,41,F,98.3,86.0,1,0,0,Diabetes,Positive,1
+P00560,54,M,100.5,97.0,1,1,1,Hypertension,Positive,1
+P00561,62,F,97.7,89.0,0,0,0,Diabetes,Negative,1
+P00562,48,F,97.1,95.0,1,1,1,None,Positive,1
+P00563,31,M,99.8,92.0,1,1,0,Heart Disease,Negative,0
+P00564,33,M,95.7,97.0,1,1,0,None,Positive,0
+P00565,46,M,98.1,98.0,0,1,0,Heart Disease,Positive,0
+P00566,20,F,97.0,98.0,1,1,0,Heart Disease,Negative,0
+P00567,72,F,98.6,91.0,0,0,1,None,Negative,1
+P00568,50,F,97.2,96.0,1,0,1,Multiple,Negative,1
+P00569,18,F,98.4,100.0,0,1,0,Diabetes,Positive,0
+P00570,48,F,99.2,94.0,0,1,0,None,Negative,0
+P00571,35,M,98.8,96.0,1,0,0,Multiple,Positive,0
+P00572,70,M,97.8,89.0,1,0,0,Heart Disease,Positive,1
+P00573,56,M,98.1,96.0,1,1,0,Heart Disease,Negative,0
+P00574,55,M,102.0,92.0,1,1,0,None,Positive,0
+P00575,58,F,99.9,94.0,1,0,0,None,Positive,0
+P00576,44,M,98.3,95.0,1,1,1,Hypertension,Negative,1
+P00577,61,M,98.9,96.0,1,1,1,None,Negative,1
+P00578,33,M,99.3,93.0,0,1,1,None,Positive,1
+P00579,70,M,97.5,100.0,1,1,0,None,Positive,0
+P00580,64,F,98.6,90.0,1,0,0,None,Negative,0
+P00581,30,F,97.0,87.0,0,1,0,None,Positive,1
+P00582,78,M,97.1,89.0,1,0,1,Heart Disease,Positive,1
+P00583,23,F,99.9,90.0,0,1,0,None,Positive,0
+P00584,36,M,100.1,95.0,1,1,0,Diabetes,Positive,0
+P00585,48,M,100.3,100.0,1,1,0,None,Negative,0
+P00586,30,M,98.5,97.0,0,0,0,Multiple,Positive,0
+P00587,33,F,97.9,94.0,1,1,0,Heart Disease,Positive,0
+P00588,37,M,98.6,91.0,1,0,1,Diabetes,Negative,1
+P00589,48,F,95.9,100.0,1,1,0,None,Positive,0
+P00590,79,F,100.7,89.0,0,1,0,Diabetes,Positive,1
+P00591,45,F,94.5,87.0,1,0,1,Diabetes,Positive,1
+P00592,24,F,100.1,91.0,1,1,0,None,Positive,0
+P00593,67,M,97.1,92.0,1,1,0,None,Negative,0
+P00594,54,F,98.6,98.0,1,0,0,None,Negative,0
+P00595,34,M,97.3,99.0,1,1,0,Diabetes,Positive,0
+P00596,34,M,97.3,98.0,1,1,1,None,Positive,1
+P00597,54,F,94.9,84.0,0,1,0,Diabetes,Positive,1
+P00598,51,M,96.7,95.0,1,0,0,Diabetes,Negative,0
+P00599,57,M,100.0,95.0,0,1,0,None,Negative,0
+P00600,54,F,96.8,97.0,1,1,0,None,Negative,0
+P00601,11,F,96.7,87.0,1,1,1,Diabetes,Negative,1
+P00602,34,F,98.4,93.0,1,1,0,Hypertension,Negative,0
+P00603,50,F,95.1,93.0,1,0,0,Multiple,Positive,0
+P00604,60,M,98.1,99.0,0,0,0,Heart Disease,Positive,0
+P00605,65,M,99.0,95.0,1,1,0,None,Positive,0
+P00606,44,F,99.2,91.0,1,0,1,Diabetes,Positive,1
+P00607,23,F,97.0,86.0,1,0,0,None,Positive,1
+P00608,48,M,100.4,88.0,1,1,0,Diabetes,Negative,1
+P00609,39,M,100.1,98.0,1,1,0,None,Positive,0
+P00610,40,F,96.0,84.0,1,0,1,None,Positive,1
+P00611,42,F,99.7,85.0,0,0,0,Diabetes,Negative,1
+P00612,51,F,98.8,99.0,0,0,0,Hypertension,Positive,0
+P00613,51,F,99.4,98.0,1,0,0,None,Positive,0
+P00614,54,F,97.7,88.0,0,1,0,None,Negative,1
+P00615,25,F,96.7,94.0,0,0,0,None,Positive,0
+P00616,31,F,98.4,100.0,0,0,0,None,Positive,0
+P00617,35,M,99.2,95.0,1,1,0,None,Positive,0
+P00618,44,M,99.2,97.0,0,1,0,None,Negative,0
+P00619,37,M,99.1,100.0,1,1,0,Diabetes,Negative,0
+P00620,72,M,97.0,100.0,1,1,1,Heart Disease,Positive,1
+P00621,49,M,100.7,95.0,1,1,1,None,Positive,1
+P00622,51,M,100.4,100.0,1,0,0,Heart Disease,Positive,0
+P00623,30,F,99.0,99.0,1,1,0,Heart Disease,Positive,0
+P00624,69,F,97.2,93.0,1,0,0,Multiple,Positive,0
+P00625,58,F,99.0,97.0,1,1,1,Diabetes,Positive,1
+P00626,50,F,98.0,86.0,1,1,1,None,Positive,1
+P00627,39,F,98.1,98.0,0,1,0,Diabetes,Positive,0
+P00628,32,M,99.6,92.0,0,0,0,Diabetes,Negative,0
+P00629,41,M,98.0,91.0,1,1,0,Multiple,Positive,0
+P00630,68,M,100.7,100.0,1,1,0,Heart Disease,Positive,0
+P00631,26,M,99.5,90.0,0,0,0,None,Negative,0
+P00632,54,M,100.1,97.0,1,1,0,None,Positive,0
+P00633,41,M,97.3,100.0,1,0,1,Heart Disease,Positive,1
+P00634,33,M,97.7,93.0,0,1,1,None,Positive,1
+P00635,74,M,96.7,96.0,0,1,1,Diabetes,Positive,1
+P00636,28,F,100.6,91.0,1,1,1,None,Positive,1
+P00637,31,M,102.9,90.0,1,1,0,Heart Disease,Negative,1
+P00638,27,F,99.4,94.0,0,0,0,Heart Disease,Positive,0
+P00639,34,F,99.0,100.0,0,0,0,Multiple,Negative,0
+P00640,45,F,97.9,100.0,0,1,0,Multiple,Negative,0
+P00641,30,M,101.0,92.0,0,1,1,Heart Disease,Positive,1
+P00642,34,M,98.5,94.0,1,1,0,None,Positive,0
+P00643,50,M,97.6,93.0,1,1,1,None,Positive,1
+P00644,91,M,96.4,88.0,1,1,1,Diabetes,Positive,1
+P00645,55,M,97.0,91.0,1,0,0,Heart Disease,Positive,0
+P00646,19,M,98.7,92.0,1,0,0,None,Negative,0
+P00647,43,F,95.9,83.0,1,1,1,Diabetes,Positive,1
+P00648,30,M,96.8,93.0,1,1,0,Hypertension,Positive,0
+P00649,67,M,101.1,99.0,0,0,0,Diabetes,Negative,0
+P00650,46,M,99.8,100.0,1,0,1,Heart Disease,Negative,1
+P00651,26,M,98.1,98.0,1,1,0,None,Positive,0
+P00652,57,M,100.0,90.0,1,0,0,Hypertension,Positive,0
+P00653,52,M,97.5,90.0,0,1,0,None,Positive,0
+P00654,41,F,99.8,95.0,0,1,0,None,Negative,0
+P00655,40,M,98.1,95.0,0,1,0,Diabetes,Negative,0
+P00656,37,M,101.6,94.0,1,1,0,Diabetes,Positive,0
+P00657,87,M,96.9,100.0,1,1,0,Diabetes,Negative,0
+P00658,35,F,100.9,97.0,0,0,0,Hypertension,Positive,0
+P00659,91,F,98.4,97.0,1,0,0,Hypertension,Negative,0
+P00660,55,F,95.8,97.0,1,1,1,None,Positive,1
+P00661,53,F,99.1,92.0,1,1,0,Diabetes,Positive,0
+P00662,55,M,99.6,87.0,1,1,0,Multiple,Positive,1
+P00663,56,M,100.8,94.0,1,0,0,Diabetes,Positive,0
+P00664,36,M,99.7,92.0,1,1,1,Heart Disease,Negative,1
+P00665,63,F,97.2,98.0,1,0,0,Hypertension,Positive,0
+P00666,77,M,100.2,92.0,0,0,0,Hypertension,Negative,0
+P00667,48,M,98.7,100.0,0,1,0,None,Positive,0
+P00668,56,F,96.2,98.0,1,1,0,None,Negative,0
+P00669,51,M,98.5,100.0,1,1,0,Hypertension,Positive,0
+P00670,45,F,96.8,100.0,1,1,0,Heart Disease,Positive,0
+P00671,42,M,98.4,99.0,1,1,0,Diabetes,Positive,0
+P00672,48,F,99.7,89.0,1,1,0,Hypertension,Positive,1
+P00673,77,M,96.9,93.0,1,1,0,Hypertension,Negative,0
+P00674,21,F,99.0,91.0,1,1,1,Heart Disease,Positive,1
+P00675,75,F,100.2,96.0,1,0,0,None,Positive,0
+P00676,19,F,97.7,97.0,1,0,0,Heart Disease,Negative,0
+P00677,39,F,98.2,93.0,0,0,0,None,Negative,0
+P00678,56,F,100.2,98.0,0,1,0,None,Positive,0
+P00679,65,M,100.3,92.0,1,0,0,None,Negative,0
+P00680,46,M,96.9,84.0,1,1,0,Hypertension,Positive,1
+P00681,71,M,97.0,96.0,1,0,0,Hypertension,Negative,0
+P00682,60,F,99.8,94.0,1,1,0,Multiple,Negative,0
+P00683,34,F,98.3,96.0,0,0,0,None,Negative,0
+P00684,71,M,98.4,99.0,1,1,0,Heart Disease,Positive,0
+P00685,59,F,96.0,94.0,1,0,1,None,Positive,1
+P00686,50,M,97.9,89.0,1,0,0,Hypertension,Positive,1
+P00687,24,M,98.4,92.0,1,1,1,Diabetes,Positive,1
+P00688,33,F,99.7,100.0,1,1,1,Multiple,Positive,1
+P00689,61,M,98.0,97.0,1,1,1,None,Positive,1
+P00690,61,F,99.7,100.0,1,1,1,Heart Disease,Positive,1
+P00691,60,F,98.3,93.0,1,1,0,None,Negative,0
+P00692,41,F,100.5,99.0,1,1,0,None,Positive,0
+P00693,53,M,98.6,100.0,1,1,0,None,Positive,0
+P00694,32,M,97.8,87.0,1,1,0,Diabetes,Positive,1
+P00695,18,F,97.5,96.0,0,1,0,None,Negative,0
+P00696,49,M,97.0,96.0,1,1,0,None,Negative,0
+P00697,38,F,99.1,89.0,0,1,1,Diabetes,Positive,1
+P00698,38,M,101.5,89.0,1,1,1,None,Positive,1
+P00699,15,F,99.8,100.0,0,1,0,Heart Disease,Positive,0
+P00700,46,F,99.2,96.0,1,1,0,Diabetes,Negative,0
+P00701,50,M,96.8,100.0,1,1,0,Multiple,Positive,0
+P00702,48,M,96.8,99.0,1,1,0,None,Positive,0
+P00703,39,F,100.0,95.0,0,1,0,None,Positive,0
+P00704,30,M,99.3,90.0,0,1,0,None,Negative,0
+P00705,60,F,97.6,98.0,0,0,0,None,Negative,0
+P00706,45,M,96.0,95.0,0,0,1,None,Positive,1
+P00707,70,M,98.3,96.0,1,1,0,None,Positive,0
+P00708,29,F,97.3,96.0,1,1,0,Hypertension,Positive,0
+P00709,83,M,97.8,97.0,0,1,0,None,Positive,0
+P00710,26,M,96.7,98.0,1,1,0,None,Negative,0
+P00711,47,M,99.8,90.0,1,1,0,Heart Disease,Positive,0
+P00712,49,M,97.7,99.0,0,0,1,None,Positive,1
+P00713,56,M,99.4,99.0,0,1,0,Diabetes,Negative,0
+P00714,42,M,99.2,96.0,1,1,0,Diabetes,Positive,0
+P00715,83,F,97.7,98.0,0,1,1,None,Negative,1
+P00716,29,M,98.3,100.0,1,1,0,Heart Disease,Positive,0
+P00717,22,M,101.2,99.0,1,1,0,Hypertension,Positive,0
+P00718,28,F,97.1,89.0,1,0,0,Heart Disease,Positive,1
+P00719,25,M,97.3,92.0,0,0,0,None,Positive,0
+P00720,55,F,95.4,94.0,1,1,1,Hypertension,Positive,1
+P00721,66,M,98.4,92.0,0,1,1,Hypertension,Positive,1
+P00722,44,M,95.5,88.0,1,1,1,None,Positive,1
+P00723,95,M,97.9,100.0,0,1,1,None,Negative,1
+P00724,57,F,95.9,91.0,0,0,0,Hypertension,Positive,0
+P00725,37,M,99.7,100.0,0,1,0,Heart Disease,Positive,0
+P00726,30,F,98.3,87.0,1,1,1,None,Positive,1
+P00727,48,M,93.6,99.0,1,1,0,None,Negative,0
+P00728,39,M,97.1,99.0,0,1,0,None,Negative,0
+P00729,45,F,97.9,96.0,0,0,1,Hypertension,Positive,1
+P00730,31,M,99.4,94.0,0,0,1,None,Positive,1
+P00731,72,F,99.9,95.0,0,1,1,Heart Disease,Positive,1
+P00732,45,M,99.2,95.0,0,0,0,Hypertension,Negative,0
+P00733,50,F,99.1,97.0,1,1,0,None,Positive,0
+P00734,50,F,99.2,94.0,0,1,0,None,Positive,0
+P00735,76,F,99.6,95.0,0,1,1,Heart Disease,Negative,1
+P00736,40,M,98.6,97.0,1,1,0,None,Positive,0
+P00737,33,F,98.3,95.0,1,1,0,Hypertension,Negative,0
+P00738,55,F,98.9,91.0,0,0,1,None,Positive,1
+P00739,41,M,100.3,91.0,1,1,0,Hypertension,Positive,0
+P00740,28,F,95.1,95.0,1,0,1,Diabetes,Positive,1
+P00741,52,M,95.2,86.0,1,1,1,None,Negative,1
+P00742,44,F,99.4,94.0,1,1,1,Hypertension,Negative,1
+P00743,39,F,97.3,96.0,1,0,1,Heart Disease,Negative,1
+P00744,85,F,98.7,95.0,0,1,0,None,Positive,0
+P00745,60,F,98.6,97.0,0,1,0,Hypertension,Positive,0
+P00746,61,F,101.8,96.0,1,1,1,None,Positive,1
+P00747,21,F,99.6,99.0,1,0,0,None,Negative,0
+P00748,19,M,100.1,96.0,0,1,0,Heart Disease,Positive,0
+P00749,29,M,98.1,100.0,0,1,0,Diabetes,Positive,0
+P00750,56,M,97.4,95.0,1,1,0,Heart Disease,Positive,0
+P00751,82,M,97.3,99.0,1,1,1,Heart Disease,Positive,1
+P00752,41,M,100.4,94.0,1,1,0,None,Positive,0
+P00753,50,M,99.4,95.0,1,1,0,Multiple,Positive,0
+P00754,43,F,98.7,90.0,0,1,0,None,Positive,0
+P00755,33,F,101.2,94.0,0,0,0,Diabetes,Positive,0
+P00756,26,F,98.4,91.0,0,1,0,None,Positive,0
+P00757,44,M,97.4,100.0,1,0,1,Hypertension,Positive,1
+P00758,22,M,98.1,96.0,1,0,0,None,Negative,0
+P00759,36,F,100.2,98.0,1,0,0,None,Negative,0
+P00760,71,F,96.5,86.0,0,1,0,None,Positive,1
+P00761,60,M,98.5,87.0,1,1,1,None,Positive,1
+P00762,46,M,101.0,93.0,1,0,0,None,Negative,0
+P00763,95,F,99.2,88.0,1,1,0,None,Positive,1
+P00764,36,M,98.3,81.0,1,1,1,Heart Disease,Positive,1
+P00765,11,M,101.5,99.0,0,1,0,None,Positive,0
+P00766,50,M,99.1,97.0,1,1,0,Diabetes,Positive,0
+P00767,55,F,96.2,91.0,1,1,0,None,Positive,0
+P00768,54,M,98.3,96.0,1,1,0,None,Negative,0
+P00769,25,F,100.4,100.0,1,0,1,Heart Disease,Negative,1
+P00770,48,F,98.9,90.0,0,1,0,Multiple,Negative,0
+P00771,51,M,100.9,100.0,1,1,1,Hypertension,Negative,1
+P00772,56,F,97.0,93.0,0,0,0,Multiple,Negative,0
+P00773,82,F,98.5,92.0,1,0,0,None,Negative,0
+P00774,30,F,99.1,89.0,0,1,0,None,Positive,1
+P00775,51,F,96.7,96.0,1,1,0,Hypertension,Positive,0
+P00776,38,F,98.6,99.0,1,1,1,None,Positive,1
+P00777,42,F,99.2,97.0,0,1,0,None,Positive,0
+P00778,48,M,96.7,94.0,1,1,0,Heart Disease,Negative,0
+P00779,28,M,96.4,92.0,1,1,1,Multiple,Positive,1
+P00780,51,M,100.4,100.0,1,1,0,None,Negative,0
+P00781,22,F,98.8,92.0,1,0,0,Heart Disease,Positive,0
+P00782,35,M,95.1,92.0,0,1,1,Heart Disease,Positive,1
+P00783,54,M,97.6,87.0,1,0,1,Diabetes,Negative,1
+P00784,74,F,98.7,100.0,1,1,0,Heart Disease,Positive,0
+P00785,43,F,95.2,87.0,0,1,1,None,Negative,1
+P00786,63,M,97.2,100.0,1,1,0,None,Positive,0
+P00787,24,M,98.1,98.0,1,1,0,Diabetes,Positive,0
+P00788,74,M,98.1,93.0,1,0,0,None,Positive,0
+P00789,48,F,97.0,96.0,0,1,0,Heart Disease,Negative,0
+P00790,40,M,98.4,97.0,0,1,0,Hypertension,Positive,0
+P00791,49,M,98.0,100.0,1,1,0,Diabetes,Negative,0
+P00792,41,F,98.3,100.0,1,1,1,None,Positive,1
+P00793,31,F,99.1,99.0,0,0,1,Hypertension,Positive,1
+P00794,77,F,95.8,96.0,1,0,1,Heart Disease,Positive,1
+P00795,41,M,99.7,98.0,1,1,0,Heart Disease,Positive,0
+P00796,51,F,99.4,96.0,1,1,0,None,Negative,0
+P00797,38,F,99.3,97.0,1,0,0,Diabetes,Negative,0
+P00798,59,F,98.3,92.0,1,1,1,None,Positive,1
+P00799,54,F,98.3,95.0,1,1,0,Heart Disease,Negative,0
+P00800,41,F,98.4,99.0,1,0,1,None,Negative,1
+P00801,90,M,98.7,95.0,1,1,1,Heart Disease,Positive,1
+P00802,70,M,99.8,97.0,1,1,0,Heart Disease,Positive,0
+P00803,55,M,99.7,92.0,1,0,0,None,Positive,0
+P00804,48,M,98.2,95.0,1,0,1,Multiple,Positive,1
+P00805,51,M,99.5,89.0,0,1,0,Diabetes,Negative,1
+P00806,51,F,99.3,99.0,1,1,1,None,Positive,1
+P00807,25,M,99.6,86.0,0,1,0,Heart Disease,Positive,1
+P00808,71,F,98.0,97.0,0,1,1,Heart Disease,Positive,1
+P00809,58,M,100.5,88.0,1,1,0,None,Positive,1
+P00810,46,M,99.8,90.0,0,1,1,Heart Disease,Negative,1
+P00811,68,M,97.0,90.0,1,1,1,None,Positive,1
+P00812,71,F,97.4,99.0,0,1,1,None,Positive,1
+P00813,24,M,100.9,89.0,1,1,0,Hypertension,Positive,1
+P00814,51,F,95.8,94.0,0,1,0,None,Positive,0
+P00815,73,M,98.6,93.0,0,1,0,Hypertension,Negative,0
+P00816,73,F,101.7,94.0,1,1,0,Diabetes,Positive,0
+P00817,57,M,100.2,99.0,1,1,0,Hypertension,Negative,0
+P00818,63,F,100.1,94.0,1,0,1,None,Negative,1
+P00819,62,F,96.8,94.0,1,1,1,None,Negative,1
+P00820,53,M,99.8,90.0,1,1,0,None,Positive,0
+P00821,65,M,100.9,90.0,0,1,0,Hypertension,Positive,0
+P00822,79,M,98.1,88.0,1,0,1,None,Negative,1
+P00823,44,M,98.6,93.0,1,1,0,Diabetes,Positive,0
+P00824,38,M,100.1,100.0,0,0,1,Hypertension,Positive,1
+P00825,46,F,98.3,96.0,1,0,0,None,Negative,0
+P00826,29,M,96.3,95.0,1,0,1,None,Positive,1
+P00827,57,M,94.5,87.0,1,1,0,None,Negative,1
+P00828,54,M,99.1,100.0,0,1,0,Heart Disease,Negative,0
+P00829,77,M,97.8,100.0,0,0,0,Heart Disease,Negative,0
+P00830,39,F,94.5,91.0,1,1,0,None,Positive,0
+P00831,64,F,97.4,90.0,1,1,1,None,Positive,1
+P00832,95,F,98.0,100.0,1,1,0,None,Positive,0
+P00833,79,F,97.9,97.0,1,1,0,None,Negative,0
+P00834,81,F,100.3,100.0,0,0,0,None,Positive,0
+P00835,55,F,99.6,100.0,1,1,0,None,Positive,0
+P00836,42,F,98.4,85.0,1,1,0,Heart Disease,Negative,1
+P00837,43,F,96.7,100.0,1,1,1,Heart Disease,Positive,1
+P00838,37,M,99.7,96.0,1,1,0,Diabetes,Positive,0
+P00839,61,M,100.8,95.0,1,1,1,Hypertension,Positive,1
+P00840,38,M,101.2,95.0,0,1,0,Diabetes,Negative,0
+P00841,33,F,98.2,95.0,0,1,1,None,Negative,1
+P00842,19,F,99.5,87.0,0,1,0,Diabetes,Positive,1
+P00843,63,M,97.6,100.0,1,1,1,Hypertension,Positive,1
+P00844,59,M,97.4,92.0,1,1,0,None,Negative,0
+P00845,48,M,99.7,93.0,1,1,1,Multiple,Positive,1
+P00846,37,F,96.7,98.0,0,1,0,Heart Disease,Negative,0
+P00847,38,F,97.9,100.0,1,0,0,Heart Disease,Negative,0
+P00848,52,F,100.3,95.0,1,0,1,Diabetes,Positive,1
+P00849,43,F,97.8,96.0,1,1,0,None,Negative,0
+P00850,49,F,97.1,100.0,0,1,1,Hypertension,Positive,1
+P00851,87,M,101.6,98.0,0,0,0,Multiple,Positive,0
+P00852,37,F,99.4,97.0,0,1,0,Hypertension,Positive,0
+P00853,43,F,96.1,81.0,1,1,0,None,Positive,1
+P00854,56,F,99.1,94.0,1,1,0,Heart Disease,Positive,0
+P00855,57,F,98.4,96.0,0,0,0,Diabetes,Positive,0
+P00856,51,M,99.8,96.0,0,1,1,Heart Disease,Negative,1
+P00857,89,F,99.4,100.0,1,1,1,None,Positive,1
+P00858,26,M,98.5,89.0,1,1,0,Multiple,Negative,1
+P00859,51,M,99.0,90.0,0,1,0,None,Negative,0
+P00860,64,M,99.1,100.0,1,1,1,Heart Disease,Positive,1
+P00861,45,F,99.2,100.0,1,1,1,Diabetes,Positive,1
+P00862,29,M,98.0,90.0,1,0,0,Diabetes,Negative,0
+P00863,59,M,96.4,96.0,0,0,0,None,Negative,0
+P00864,44,F,98.3,94.0,0,1,0,Diabetes,Negative,0
+P00865,51,M,97.9,92.0,1,1,1,Diabetes,Positive,1
+P00866,91,F,98.5,89.0,0,1,0,Heart Disease,Positive,1
+P00867,60,M,100.3,91.0,0,1,0,None,Positive,0
+P00868,25,M,100.8,91.0,1,1,0,Hypertension,Positive,0
+P00869,47,F,99.7,100.0,1,1,0,Hypertension,Negative,0
+P00870,22,F,99.8,97.0,1,0,0,Hypertension,Positive,0
+P00871,86,F,98.5,96.0,1,1,1,None,Negative,1
+P00872,95,F,98.0,89.0,0,1,0,Heart Disease,Positive,1
+P00873,23,M,99.7,100.0,1,1,1,None,Positive,1
+P00874,60,M,100.1,100.0,1,1,1,Hypertension,Positive,1
+P00875,65,M,100.0,96.0,0,0,0,None,Negative,0
+P00876,35,F,98.4,96.0,1,1,0,None,Negative,0
+P00877,47,F,98.7,96.0,0,1,0,None,Negative,0
+P00878,72,F,101.5,99.0,0,1,0,None,Positive,0
+P00879,35,M,95.0,88.0,1,1,0,Diabetes,Positive,1
+P00880,41,M,100.1,90.0,1,0,1,Diabetes,Positive,1
+P00881,18,F,98.1,91.0,0,1,0,None,Positive,0
+P00882,95,M,98.1,93.0,0,1,0,Diabetes,Positive,0
+P00883,19,F,98.2,97.0,0,1,0,Multiple,Positive,0
+P00884,46,F,95.8,100.0,1,1,0,None,Negative,0
+P00885,32,F,98.3,100.0,1,0,1,None,Negative,1
+P00886,38,M,100.5,87.0,1,0,1,None,Positive,1
+P00887,39,M,98.2,100.0,0,1,0,None,Negative,0
+P00888,58,M,98.4,100.0,0,1,0,None,Positive,0
+P00889,59,F,97.3,100.0,0,0,0,None,Positive,0
+P00890,40,M,98.6,92.0,1,1,0,None,Negative,0
+P00891,45,M,94.8,93.0,1,1,0,None,Positive,0
+P00892,23,F,97.4,87.0,1,1,0,Diabetes,Positive,1
+P00893,46,M,99.2,96.0,1,1,0,None,Positive,0
+P00894,58,M,96.6,96.0,1,0,0,None,Negative,0
+P00895,39,F,96.7,93.0,1,1,1,None,Positive,1
+P00896,95,M,97.9,90.0,1,0,1,None,Negative,1
+P00897,64,M,99.3,96.0,1,1,0,Diabetes,Positive,0
+P00898,15,F,100.1,94.0,1,1,0,Diabetes,Positive,0
+P00899,59,M,98.6,97.0,1,1,0,None,Positive,0
+P00900,80,M,98.1,100.0,1,1,1,None,Positive,1
+P00901,51,F,99.2,98.0,1,1,1,None,Positive,1
+P00902,72,M,98.3,96.0,0,0,0,Heart Disease,Positive,0
+P00903,37,M,99.7,96.0,1,1,0,None,Positive,0
+P00904,47,M,100.8,90.0,1,1,1,None,Positive,1
+P00905,42,M,98.4,95.0,1,1,1,Heart Disease,Positive,1
+P00906,90,M,96.9,97.0,0,1,0,None,Negative,0
+P00907,50,M,98.5,100.0,1,1,0,None,Positive,0
+P00908,59,F,101.6,98.0,1,1,0,Heart Disease,Positive,0
+P00909,79,F,99.1,94.0,1,1,0,Heart Disease,Positive,0
+P00910,59,M,97.1,100.0,1,1,0,Diabetes,Negative,0
+P00911,62,M,98.7,85.0,1,1,0,Diabetes,Negative,1
+P00912,55,M,98.5,98.0,0,0,0,None,Negative,0
+P00913,19,F,97.4,90.0,0,0,1,None,Positive,1
+P00914,45,M,100.5,100.0,1,0,1,None,Positive,1
+P00915,46,F,99.5,100.0,0,0,0,Heart Disease,Negative,0
+P00916,82,M,100.3,88.0,1,0,0,Diabetes,Negative,1
+P00917,53,F,94.0,90.0,1,1,1,None,Negative,1
+P00918,72,M,99.0,86.0,0,1,0,Diabetes,Positive,1
+P00919,81,F,98.7,99.0,1,0,0,None,Negative,0
+P00920,18,M,97.1,97.0,1,1,0,None,Positive,0
+P00921,69,F,99.3,100.0,0,1,1,Heart Disease,Positive,1
+P00922,62,M,97.2,82.0,0,0,0,Hypertension,Positive,1
+P00923,68,M,96.2,91.0,0,1,0,Hypertension,Positive,0
+P00924,46,M,99.7,99.0,1,0,0,Heart Disease,Positive,0
+P00925,44,M,98.4,100.0,0,0,0,Hypertension,Negative,0
+P00926,35,F,96.1,93.0,0,0,0,None,Positive,0
+P00927,25,M,100.8,96.0,1,1,0,Heart Disease,Positive,0
+P00928,29,F,98.7,99.0,0,1,0,None,Positive,0
+P00929,31,F,97.4,100.0,1,1,0,None,Negative,0
+P00930,70,F,96.2,87.0,1,1,0,Diabetes,Positive,1
+P00931,17,M,96.9,94.0,1,0,1,Diabetes,Positive,1
+P00932,45,M,96.1,87.0,0,1,1,None,Negative,1
+P00933,36,F,101.2,97.0,1,1,0,Heart Disease,Positive,0
+P00934,43,M,101.6,88.0,0,1,0,Heart Disease,Negative,1
+P00935,23,F,100.4,95.0,0,1,0,None,Positive,0
+P00936,49,F,96.1,96.0,1,1,0,Diabetes,Positive,0
+P00937,66,F,99.4,91.0,1,1,1,None,Positive,1
+P00938,83,F,102.1,100.0,0,1,0,None,Negative,1
+P00939,57,F,97.4,96.0,1,1,1,None,Positive,1
+P00940,68,M,98.5,95.0,1,1,1,None,Positive,1
+P00941,95,F,101.3,92.0,0,1,1,None,Positive,1
+P00942,44,M,99.1,94.0,1,1,1,Heart Disease,Positive,1
+P00943,20,F,99.6,90.0,1,0,0,Hypertension,Positive,0
+P00944,65,M,97.6,93.0,1,1,0,None,Negative,0
+P00945,17,F,96.4,95.0,0,1,1,Heart Disease,Negative,1
+P00946,64,M,99.3,100.0,1,1,0,None,Positive,0
+P00947,39,M,97.9,95.0,1,1,0,None,Positive,0
+P00948,38,M,97.6,91.0,1,0,0,Diabetes,Positive,0
+P00949,29,F,97.4,89.0,0,1,0,Diabetes,Negative,1
+P00950,50,F,99.8,98.0,1,1,0,None,Positive,0
+P00951,32,F,99.3,90.0,0,0,0,None,Negative,0
+P00952,35,M,101.5,97.0,0,1,0,None,Negative,0
+P00953,95,M,100.3,100.0,1,0,0,None,Positive,0
+P00954,29,M,98.8,99.0,1,1,0,Heart Disease,Positive,0
+P00955,47,F,98.8,90.0,1,0,0,Hypertension,Positive,0
+P00956,50,F,100.2,96.0,1,1,1,Heart Disease,Positive,1
+P00957,44,F,98.8,100.0,1,0,0,Diabetes,Negative,0
+P00958,62,F,100.5,97.0,1,1,0,None,Negative,0
+P00959,58,F,98.9,94.0,0,1,0,None,Negative,0
+P00960,33,F,99.6,99.0,0,1,0,Diabetes,Positive,0
+P00961,83,F,100.9,98.0,0,1,1,Hypertension,Negative,1
+P00962,66,F,96.3,96.0,1,0,0,None,Negative,0
+P00963,52,F,100.7,98.0,1,0,0,None,Negative,0
+P00964,49,M,100.8,96.0,0,0,0,Diabetes,Positive,0
+P00965,34,M,98.3,93.0,1,1,0,Hypertension,Positive,0
+P00966,29,F,98.8,96.0,1,0,0,Diabetes,Positive,0
+P00967,35,F,98.1,94.0,0,1,0,None,Positive,0
+P00968,67,M,97.8,100.0,0,0,0,None,Negative,0
+P00969,59,F,100.5,94.0,0,1,0,Hypertension,Positive,0
+P00970,71,M,96.5,94.0,1,1,0,Heart Disease,Negative,0
+P00971,54,M,98.8,99.0,0,1,1,None,Negative,1
+P00972,38,M,96.7,94.0,0,1,0,Heart Disease,Positive,0
+P00973,32,M,97.8,95.0,0,1,1,Heart Disease,Positive,1
+P00974,12,F,96.9,93.0,0,1,0,Heart Disease,Negative,0
+P00975,29,F,98.8,91.0,1,1,1,Hypertension,Negative,1
+P00976,58,F,99.4,94.0,0,1,0,None,Positive,0
+P00977,25,F,100.4,92.0,0,0,0,Multiple,Negative,0
+P00978,56,F,98.6,100.0,1,0,0,Multiple,Positive,0
+P00979,36,F,101.6,94.0,1,0,0,None,Negative,0
+P00980,55,F,98.0,93.0,0,0,0,None,Negative,0
+P00981,34,M,99.8,99.0,1,0,0,None,Positive,0
+P00982,25,M,100.7,99.0,0,0,0,None,Positive,0
+P00983,89,M,98.1,90.0,1,1,0,Heart Disease,Negative,0
+P00984,50,F,99.5,96.0,0,0,0,Heart Disease,Positive,0
+P00985,39,M,94.9,94.0,0,0,0,Heart Disease,Negative,0
+P00986,39,F,100.3,96.0,1,1,0,Multiple,Negative,0
+P00987,30,F,97.4,94.0,0,0,0,Hypertension,Positive,0
+P00988,36,F,101.0,85.0,1,1,0,None,Negative,1
+P00989,37,M,98.6,98.0,1,1,1,None,Positive,1
+P00990,30,M,100.1,97.0,0,1,0,Heart Disease,Positive,0
+P00991,54,F,97.7,89.0,1,1,1,None,Positive,1
+P00992,74,M,103.4,100.0,0,1,0,Heart Disease,Positive,1
+P00993,23,M,98.9,100.0,1,0,0,Hypertension,Positive,0
+P00994,34,M,102.1,100.0,0,0,0,None,Positive,1
+P00995,74,M,98.6,87.0,0,1,0,Diabetes,Positive,1
+P00996,63,F,98.1,99.0,1,1,1,Hypertension,Positive,1
+P00997,30,F,99.6,91.0,0,0,1,None,Positive,1
+P00998,53,M,100.5,89.0,1,0,0,None,Negative,1
+P00999,95,F,100.0,92.0,1,1,0,None,Positive,0
+P01000,64,F,99.5,94.0,0,1,0,None,Positive,0
+P01001,42,F,98.7,92.0,0,1,0,None,Negative,0
+P01002,38,F,99.9,100.0,1,1,1,Heart Disease,Positive,1
+P01003,59,F,99.2,90.0,1,1,0,None,Positive,0
+P01004,75,F,98.4,100.0,1,0,0,None,Negative,0
+P01005,53,M,98.4,93.0,1,1,1,None,Negative,1
+P01006,48,F,100.8,95.0,0,0,0,None,Negative,0
+P01007,40,F,96.6,94.0,0,1,1,None,Positive,1
+P01008,55,M,99.9,91.0,1,0,0,Heart Disease,Positive,0
+P01009,58,M,99.8,91.0,1,0,0,Hypertension,Negative,0
+P01010,23,M,102.0,88.0,1,1,1,None,Positive,1
+P01011,39,F,93.8,88.0,0,1,0,None,Negative,1
+P01012,42,M,96.3,94.0,0,1,1,None,Positive,1
+P01013,61,F,97.3,100.0,1,1,0,None,Positive,0
+P01014,34,F,97.7,89.0,1,1,1,None,Negative,1
+P01015,57,F,100.0,96.0,1,0,0,None,Negative,0
+P01016,33,M,96.6,94.0,0,1,1,None,Positive,1
+P01017,40,F,98.2,100.0,0,1,1,Diabetes,Positive,1
+P01018,40,M,97.6,97.0,1,0,0,Heart Disease,Negative,0
+P01019,44,F,98.2,92.0,1,1,0,Hypertension,Negative,0
+P01020,38,F,100.7,89.0,0,0,0,None,Negative,1
+P01021,21,M,99.5,85.0,1,1,0,Hypertension,Negative,1
+P01022,51,F,97.7,91.0,0,1,1,Heart Disease,Positive,1
+P01023,24,F,96.5,100.0,0,0,0,Heart Disease,Negative,0
+P01024,30,F,99.4,92.0,1,1,0,Diabetes,Negative,0
+P01025,42,F,97.6,86.0,0,1,1,Diabetes,Positive,1
+P01026,43,M,98.2,87.0,1,1,0,Diabetes,Positive,1
+P01027,48,F,98.2,100.0,0,1,0,None,Positive,0
+P01028,48,M,100.3,93.0,0,1,0,None,Positive,0
+P01029,59,F,98.1,97.0,1,1,0,Heart Disease,Negative,0
+P01030,28,F,98.0,97.0,1,0,0,None,Positive,0
+P01031,79,M,97.2,92.0,1,1,1,None,Positive,1
+P01032,38,M,97.5,93.0,1,1,0,None,Positive,0
+P01033,57,F,100.0,90.0,1,0,1,Hypertension,Positive,1
+P01034,44,M,98.6,86.0,1,0,0,Hypertension,Negative,1
+P01035,95,M,98.3,100.0,0,0,0,None,Positive,0
+P01036,46,F,96.6,99.0,1,0,0,None,Positive,0
+P01037,60,F,97.0,95.0,1,0,0,Multiple,Positive,0
+P01038,33,M,99.4,95.0,0,0,0,None,Negative,0
+P01039,48,M,98.3,100.0,1,1,1,None,Positive,1
+P01040,55,M,98.3,84.0,1,1,0,None,Positive,1
+P01041,42,M,99.1,98.0,1,1,0,Heart Disease,Positive,0
+P01042,95,F,99.6,100.0,1,1,0,None,Positive,0
+P01043,45,F,99.6,100.0,1,1,0,None,Negative,0
+P01044,75,F,98.2,100.0,1,1,0,None,Positive,0
+P01045,66,F,98.4,100.0,0,0,0,Heart Disease,Negative,0
+P01046,42,F,99.4,94.0,0,1,1,None,Negative,1
+P01047,56,F,95.2,95.0,1,1,0,Multiple,Positive,0
+P01048,35,M,98.8,91.0,1,1,0,None,Positive,0
+P01049,28,M,99.7,92.0,1,1,1,Diabetes,Positive,1
+P01050,52,F,97.6,100.0,1,1,0,None,Positive,0
+P01051,67,F,96.7,97.0,1,0,0,None,Negative,0
+P01052,74,F,100.7,98.0,1,0,0,Diabetes,Negative,0
+P01053,58,M,97.4,87.0,1,1,0,None,Negative,1
+P01054,35,M,98.5,97.0,1,1,1,Heart Disease,Positive,1
+P01055,18,M,99.1,100.0,1,1,0,None,Positive,0
+P01056,77,M,97.2,97.0,1,1,0,Diabetes,Positive,0
+P01057,50,M,96.2,90.0,1,0,0,None,Negative,0
+P01058,59,F,99.0,95.0,1,0,0,Hypertension,Negative,0
+P01059,53,F,96.5,100.0,1,0,1,Heart Disease,Negative,1
+P01060,66,F,99.6,97.0,1,1,0,Heart Disease,Positive,0
+P01061,47,M,98.4,100.0,0,1,0,Heart Disease,Negative,0
+P01062,15,M,101.8,100.0,1,0,0,Heart Disease,Negative,0
+P01063,92,M,98.8,94.0,0,1,0,None,Positive,0
+P01064,89,M,97.5,90.0,1,0,1,Multiple,Negative,1
+P01065,29,M,99.8,93.0,0,1,1,Heart Disease,Negative,1
+P01066,56,F,100.2,100.0,0,1,0,Hypertension,Negative,0
+P01067,65,F,96.6,99.0,1,0,1,Diabetes,Negative,1
+P01068,80,M,99.2,96.0,0,1,0,None,Negative,0
+P01069,69,F,99.1,100.0,1,1,0,None,Positive,0
+P01070,40,M,100.1,93.0,1,0,1,None,Positive,1
+P01071,45,M,97.1,93.0,1,0,0,None,Negative,0
+P01072,32,M,99.7,92.0,1,0,0,Heart Disease,Positive,0
+P01073,51,M,99.2,100.0,1,1,0,Heart Disease,Negative,0
+P01074,17,M,98.2,96.0,0,0,0,None,Positive,0
+P01075,58,F,102.6,95.0,1,0,1,None,Negative,1
+P01076,64,F,96.8,96.0,1,1,1,Heart Disease,Positive,1
+P01077,58,F,98.2,95.0,0,0,1,None,Negative,1
+P01078,31,F,97.3,91.0,0,1,0,Hypertension,Negative,0
+P01079,46,M,99.1,100.0,1,1,1,None,Positive,1
+P01080,95,F,101.2,87.0,0,0,0,Hypertension,Positive,1
+P01081,53,M,100.7,96.0,0,1,0,Hypertension,Negative,0
+P01082,49,M,94.7,98.0,1,1,1,Multiple,Positive,1
+P01083,46,M,101.0,87.0,0,1,0,None,Positive,1
+P01084,37,F,97.9,97.0,1,1,1,None,Positive,1
+P01085,45,M,97.6,93.0,1,1,1,None,Positive,1
+P01086,95,F,98.8,87.0,0,1,0,Hypertension,Positive,1
+P01087,45,M,98.2,96.0,1,0,0,Hypertension,Positive,0
+P01088,25,M,98.1,100.0,0,1,0,None,Positive,0
+P01089,61,M,97.5,100.0,1,1,0,None,Positive,0
+P01090,54,F,99.1,93.0,1,0,1,None,Positive,1
+P01091,63,M,100.4,97.0,0,0,0,None,Negative,0
+P01092,45,F,98.8,100.0,1,1,0,None,Negative,0
+P01093,31,F,98.5,96.0,0,0,0,Hypertension,Negative,0
+P01094,51,M,99.5,99.0,0,1,0,None,Negative,0
+P01095,83,M,100.5,93.0,1,1,0,Heart Disease,Positive,0
+P01096,58,F,98.8,94.0,0,1,0,None,Positive,0
+P01097,41,F,98.4,89.0,0,1,1,None,Positive,1
+P01098,41,M,99.5,93.0,1,1,1,Diabetes,Positive,1
+P01099,60,F,97.6,87.0,1,1,0,Hypertension,Positive,1
+P01100,43,M,95.5,87.0,1,0,0,Diabetes,Negative,1
+P01101,48,M,99.5,99.0,1,1,0,None,Positive,0
+P01102,60,M,98.0,89.0,1,1,0,None,Negative,1
+P01103,35,M,97.8,100.0,1,1,0,Diabetes,Positive,0
+P01104,64,M,95.7,94.0,1,0,0,None,Positive,0
+P01105,38,F,97.5,94.0,0,1,0,None,Positive,0
+P01106,48,M,98.1,91.0,1,1,1,None,Positive,1
+P01107,32,F,100.8,95.0,1,0,1,None,Negative,1
+P01108,75,M,101.2,100.0,1,1,0,None,Positive,0
+P01109,35,M,98.3,91.0,0,0,0,None,Negative,0
+P01110,50,F,99.4,93.0,1,1,1,None,Positive,1
+P01111,48,F,96.9,99.0,1,1,0,None,Positive,0
+P01112,59,F,98.8,89.0,0,1,0,None,Positive,1
+P01113,71,M,98.0,89.0,1,1,0,None,Negative,1
+P01114,64,F,96.2,95.0,1,1,0,None,Negative,0
+P01115,24,F,100.3,100.0,0,0,0,Hypertension,Positive,0
+P01116,77,F,98.9,95.0,0,0,0,None,Negative,0
+P01117,41,F,99.6,94.0,1,1,1,Diabetes,Positive,1
+P01118,43,F,98.0,95.0,0,1,1,Hypertension,Negative,1
+P01119,32,M,95.1,95.0,1,1,1,Hypertension,Positive,1
+P01120,65,F,96.5,92.0,0,0,0,Hypertension,Negative,0
+P01121,57,M,100.0,100.0,1,1,0,None,Positive,0
+P01122,43,M,98.2,96.0,1,1,0,Heart Disease,Negative,0
+P01123,64,F,99.5,92.0,1,1,0,None,Positive,0
+P01124,38,F,98.0,95.0,0,1,0,Hypertension,Positive,0
+P01125,37,M,98.7,93.0,1,1,0,None,Positive,0
+P01126,32,M,98.6,88.0,1,1,0,Heart Disease,Positive,1
+P01127,44,F,97.2,100.0,1,0,0,None,Negative,0
+P01128,52,M,99.0,96.0,0,1,0,None,Positive,0
+P01129,56,M,100.9,90.0,1,1,1,None,Negative,1
+P01130,64,M,97.9,89.0,0,1,1,Diabetes,Positive,1
+P01131,56,M,96.1,88.0,1,1,0,Hypertension,Positive,1
+P01132,31,M,99.7,91.0,0,1,0,None,Negative,0
+P01133,62,F,96.5,89.0,1,1,0,Hypertension,Positive,1
+P01134,30,M,97.1,94.0,1,0,0,Hypertension,Positive,0
+P01135,54,M,98.2,100.0,1,0,0,Diabetes,Positive,0
+P01136,13,F,99.5,91.0,1,0,0,None,Negative,0
+P01137,23,F,99.3,100.0,0,1,0,Hypertension,Negative,0
+P01138,49,M,98.1,98.0,0,1,1,Heart Disease,Negative,1
+P01139,73,M,96.6,100.0,1,0,0,None,Negative,0
+P01140,51,M,102.6,89.0,1,1,1,Hypertension,Positive,1
+P01141,31,F,98.9,91.0,1,1,0,Heart Disease,Positive,0
+P01142,35,M,99.8,92.0,1,0,0,None,Negative,0
+P01143,37,M,99.3,95.0,1,0,0,None,Negative,0
+P01144,59,M,100.9,98.0,0,1,0,Heart Disease,Negative,0
+P01145,41,F,97.0,87.0,0,0,1,None,Negative,1
+P01146,45,F,99.1,99.0,1,1,0,None,Positive,0
+P01147,52,F,98.1,91.0,0,0,0,None,Positive,0
+P01148,29,F,97.0,100.0,0,1,0,Heart Disease,Negative,0
+P01149,35,F,100.6,97.0,1,1,0,Hypertension,Negative,0
+P01150,36,M,97.2,100.0,0,1,1,None,Negative,1
+P01151,60,F,99.3,93.0,1,1,0,Hypertension,Positive,0
+P01152,62,F,101.1,98.0,0,1,0,Diabetes,Negative,0
+P01153,31,M,101.1,93.0,0,1,1,Hypertension,Positive,1
+P01154,26,M,97.2,98.0,0,0,1,Hypertension,Negative,1
+P01155,28,M,100.1,96.0,1,1,0,None,Positive,0
+P01156,59,M,99.5,100.0,1,1,1,Heart Disease,Negative,1
+P01157,33,M,96.8,100.0,0,1,1,Hypertension,Negative,1
+P01158,37,M,95.8,97.0,0,1,0,Heart Disease,Negative,0
+P01159,42,F,98.6,96.0,1,1,1,None,Negative,1
+P01160,55,F,100.4,95.0,1,1,0,None,Positive,0
+P01161,53,F,103.0,88.0,1,1,1,None,Positive,1
+P01162,45,M,97.7,89.0,1,1,1,Multiple,Negative,1
+P01163,57,M,98.9,90.0,1,1,1,Heart Disease,Positive,1
+P01164,48,F,97.0,100.0,1,1,0,None,Positive,0
+P01165,54,F,101.0,92.0,1,1,0,None,Negative,0
+P01166,40,M,99.1,93.0,0,1,1,Heart Disease,Negative,1
+P01167,32,F,99.3,98.0,1,1,0,Hypertension,Positive,0
+P01168,70,M,98.8,90.0,1,0,1,None,Positive,1
+P01169,46,M,97.3,100.0,1,1,0,Multiple,Positive,0
+P01170,29,M,100.0,82.0,1,0,1,None,Positive,1
+P01171,65,M,100.1,100.0,1,1,1,Heart Disease,Positive,1
+P01172,93,F,100.5,100.0,1,1,1,None,Positive,1
+P01173,33,F,100.2,97.0,0,1,0,None,Positive,0
+P01174,72,F,97.2,92.0,1,1,1,Diabetes,Positive,1
+P01175,29,F,98.3,100.0,1,0,0,None,Positive,0
+P01176,59,M,99.2,91.0,1,1,0,None,Positive,0
+P01177,34,F,97.7,100.0,1,1,1,None,Positive,1
+P01178,21,F,96.9,98.0,1,1,0,None,Positive,0
+P01179,34,M,98.2,90.0,1,1,0,Heart Disease,Positive,0
+P01180,40,M,98.8,99.0,1,1,1,Hypertension,Positive,1
+P01181,75,F,103.6,90.0,1,1,0,None,Positive,1
+P01182,61,M,100.5,91.0,1,1,1,None,Positive,1
+P01183,34,M,97.5,99.0,1,1,0,None,Positive,0
+P01184,77,M,97.5,91.0,1,0,0,Hypertension,Positive,0
+P01185,95,M,97.0,96.0,0,1,1,None,Negative,1
+P01186,50,M,99.7,98.0,1,1,0,Heart Disease,Positive,0
+P01187,66,M,98.0,92.0,1,0,0,None,Positive,0
+P01188,39,M,98.4,92.0,1,1,1,None,Positive,1
+P01189,32,M,97.9,100.0,1,1,0,None,Negative,0
+P01190,42,F,102.0,98.0,1,1,0,None,Positive,0
+P01191,36,F,100.6,95.0,1,1,1,Diabetes,Positive,1
+P01192,77,M,97.1,95.0,0,1,1,None,Negative,1
+P01193,44,F,96.9,89.0,1,0,1,None,Positive,1
+P01194,41,M,100.4,97.0,1,0,0,None,Negative,0
+P01195,44,M,97.2,96.0,1,0,0,None,Positive,0
+P01196,53,F,100.6,100.0,1,1,0,Heart Disease,Positive,0
+P01197,43,F,99.7,85.0,0,1,0,None,Negative,1
+P01198,21,M,97.2,94.0,1,1,0,Hypertension,Positive,0
+P01199,38,M,99.6,95.0,0,1,1,None,Negative,1
+P01200,38,M,99.2,97.0,1,1,0,Hypertension,Positive,0
+P01201,42,M,96.2,96.0,1,1,0,Diabetes,Negative,0
+P01202,60,F,98.6,98.0,1,1,1,None,Positive,1
+P01203,50,F,98.1,94.0,1,1,0,None,Positive,0
+P01204,32,F,99.2,89.0,1,1,0,None,Positive,1
+P01205,63,F,98.4,88.0,0,1,0,None,Positive,1
+P01206,40,M,99.2,95.0,0,1,0,Hypertension,Positive,0
+P01207,49,F,97.7,100.0,1,0,1,Multiple,Negative,1
+P01208,58,F,98.4,98.0,0,1,0,Hypertension,Positive,0
+P01209,32,F,96.6,100.0,1,1,0,None,Positive,0
+P01210,60,M,98.0,98.0,0,1,1,None,Positive,1
+P01211,50,M,98.0,90.0,1,1,0,Heart Disease,Positive,0
+P01212,64,M,96.4,94.0,1,1,1,Hypertension,Positive,1
+P01213,31,M,98.7,100.0,1,1,1,None,Positive,1
+P01214,35,M,101.0,99.0,0,1,0,None,Positive,0
+P01215,40,F,97.5,99.0,0,1,1,Hypertension,Positive,1
+P01216,27,F,100.3,92.0,1,0,0,None,Positive,0
+P01217,45,F,99.0,95.0,1,1,0,Hypertension,Positive,0
+P01218,32,F,95.7,90.0,1,1,0,None,Positive,0
+P01219,26,M,102.3,93.0,1,0,0,Heart Disease,Positive,1
+P01220,59,M,97.2,96.0,0,1,0,None,Negative,0
+P01221,95,M,98.6,92.0,0,0,0,Heart Disease,Negative,0
+P01222,51,M,99.2,100.0,0,0,0,None,Positive,0
+P01223,43,F,98.5,92.0,0,1,1,Heart Disease,Positive,1
+P01224,36,M,99.8,97.0,0,1,0,Heart Disease,Negative,0
+P01225,47,F,100.4,100.0,0,1,0,None,Negative,0
+P01226,72,M,97.2,100.0,1,1,1,Multiple,Positive,1
+P01227,47,F,98.3,97.0,0,1,1,None,Positive,1
+P01228,39,M,97.6,90.0,1,0,0,Heart Disease,Negative,0
+P01229,47,F,97.6,95.0,0,1,0,Hypertension,Negative,0
+P01230,38,F,98.8,100.0,1,0,1,Hypertension,Negative,1
+P01231,56,F,100.1,100.0,0,1,0,Diabetes,Negative,0
+P01232,26,M,96.2,96.0,0,1,0,Hypertension,Negative,0
+P01233,39,M,98.4,98.0,0,1,1,None,Negative,1
+P01234,42,M,97.3,96.0,1,0,0,Diabetes,Positive,0
+P01235,60,F,99.5,89.0,1,1,0,Multiple,Positive,1
+P01236,43,F,99.4,96.0,1,1,1,Multiple,Positive,1
+P01237,20,F,100.1,92.0,1,0,0,Heart Disease,Positive,0
+P01238,71,F,96.7,92.0,1,0,0,None,Positive,0
+P01239,33,M,99.1,94.0,0,1,0,None,Positive,0
+P01240,28,F,98.5,85.0,1,1,0,Hypertension,Positive,1
+P01241,35,M,96.1,94.0,1,1,1,Hypertension,Positive,1
+P01242,54,F,96.3,87.0,1,1,0,None,Positive,1
+P01243,66,M,97.9,99.0,0,1,0,Hypertension,Negative,0
+P01244,95,F,98.6,85.0,1,1,1,None,Positive,1
+P01245,35,F,100.4,86.0,1,1,0,None,Positive,1
+P01246,32,M,98.1,86.0,1,0,0,Diabetes,Negative,1
+P01247,34,M,99.1,97.0,1,1,0,None,Positive,0
+P01248,63,F,98.7,95.0,1,1,1,Multiple,Negative,1
+P01249,70,F,97.2,100.0,1,0,0,None,Positive,0
+P01250,66,F,97.9,97.0,1,1,1,None,Positive,1
+P01251,78,M,98.6,86.0,1,1,0,None,Positive,1
+P01252,46,M,96.7,91.0,0,1,0,Heart Disease,Negative,0
+P01253,41,M,99.5,96.0,1,1,1,None,Positive,1
+P01254,55,M,100.8,97.0,0,1,1,Heart Disease,Negative,1
+P01255,45,M,101.0,86.0,0,0,1,None,Negative,1
+P01256,47,F,99.6,100.0,1,1,1,None,Positive,1
+P01257,39,F,99.1,91.0,0,0,0,None,Negative,0
+P01258,44,M,95.8,91.0,0,1,0,Diabetes,Negative,0
+P01259,24,F,97.1,100.0,0,1,0,None,Positive,0
+P01260,57,M,96.5,95.0,0,0,1,None,Positive,1
+P01261,53,M,97.9,97.0,0,1,1,Diabetes,Negative,1
+P01262,45,M,99.7,98.0,0,0,0,Diabetes,Negative,0
+P01263,25,M,99.0,87.0,1,1,0,None,Positive,1
+P01264,32,M,99.2,96.0,1,1,1,None,Positive,1
+P01265,43,F,99.3,100.0,1,1,1,Hypertension,Positive,1
+P01266,87,F,97.5,94.0,0,1,1,Diabetes,Positive,1
+P01267,61,F,98.3,97.0,1,1,0,None,Negative,0
+P01268,55,F,98.9,100.0,1,1,0,None,Positive,0
+P01269,74,M,100.3,100.0,0,1,0,Heart Disease,Positive,0
+P01270,86,F,98.4,93.0,1,0,0,Heart Disease,Positive,0
+P01271,56,F,98.2,97.0,1,1,0,Heart Disease,Positive,0
+P01272,57,M,96.5,99.0,1,1,0,Heart Disease,Positive,0
+P01273,57,F,97.4,100.0,1,0,0,Diabetes,Negative,0
+P01274,61,F,98.9,90.0,1,1,0,None,Negative,0
+P01275,49,F,98.3,100.0,1,1,0,None,Positive,0
+P01276,24,F,96.4,96.0,1,1,0,Diabetes,Positive,0
+P01277,45,M,96.4,93.0,0,1,0,None,Positive,0
+P01278,31,M,97.0,98.0,1,0,0,Hypertension,Negative,0
+P01279,36,F,98.2,93.0,0,1,0,Heart Disease,Positive,0
+P01280,34,M,100.1,93.0,1,1,0,Multiple,Positive,0
+P01281,40,F,99.0,92.0,1,1,0,None,Positive,0
+P01282,46,F,97.2,92.0,0,1,0,Hypertension,Positive,0
+P01283,21,F,97.5,87.0,0,1,0,Heart Disease,Negative,1
+P01284,29,M,99.3,87.0,0,1,0,Hypertension,Positive,1
+P01285,37,M,99.1,91.0,0,1,0,Heart Disease,Positive,0
+P01286,67,F,97.6,96.0,1,0,0,None,Positive,0
+P01287,76,M,95.1,91.0,1,1,0,None,Negative,0
+P01288,43,M,99.1,100.0,1,0,1,None,Positive,1
+P01289,47,M,98.1,98.0,1,0,0,Diabetes,Negative,0
+P01290,30,M,101.2,92.0,0,1,0,Hypertension,Positive,0
+P01291,33,F,98.1,100.0,0,1,1,None,Negative,1
+P01292,43,F,98.6,94.0,1,1,0,Diabetes,Positive,0
+P01293,20,F,98.3,94.0,1,1,0,Heart Disease,Positive,0
+P01294,24,F,99.3,98.0,1,0,0,Hypertension,Positive,0
+P01295,64,F,99.2,95.0,1,1,0,Diabetes,Positive,0
+P01296,42,M,96.9,95.0,0,0,0,Diabetes,Negative,0
+P01297,50,M,96.6,98.0,1,1,0,Multiple,Negative,0
+P01298,46,F,100.3,89.0,1,1,0,Hypertension,Positive,1
+P01299,35,F,97.9,94.0,0,1,1,Heart Disease,Positive,1
+P01300,52,F,99.4,90.0,0,1,0,Hypertension,Positive,0
+P01301,54,F,98.1,97.0,0,1,0,Multiple,Positive,0
+P01302,72,M,95.8,88.0,0,0,0,Diabetes,Positive,1
+P01303,61,M,100.7,100.0,0,1,1,Heart Disease,Negative,1
+P01304,45,F,99.8,92.0,0,0,0,Hypertension,Positive,0
+P01305,16,F,99.4,93.0,0,1,0,None,Negative,0
+P01306,36,M,97.2,94.0,1,1,0,Multiple,Negative,0
+P01307,39,F,99.7,90.0,0,1,0,None,Positive,0
+P01308,35,F,99.0,96.0,0,1,0,None,Positive,0
+P01309,77,F,97.5,100.0,1,1,1,Heart Disease,Positive,1
+P01310,28,F,98.2,93.0,1,1,1,None,Positive,1
+P01311,74,M,98.5,93.0,1,1,0,None,Positive,0
+P01312,34,F,97.7,98.0,1,0,1,Multiple,Positive,1
+P01313,30,M,99.1,98.0,0,1,1,None,Positive,1
+P01314,32,M,99.9,96.0,1,1,1,None,Positive,1
+P01315,95,F,97.9,100.0,1,0,0,None,Positive,0
+P01316,72,F,98.4,97.0,1,0,0,Hypertension,Negative,0
+P01317,23,F,98.4,100.0,1,1,0,None,Negative,0
+P01318,54,F,99.8,93.0,1,1,1,None,Positive,1
+P01319,39,M,98.9,89.0,1,1,0,None,Negative,1
+P01320,32,F,100.1,100.0,0,0,0,None,Negative,0
+P01321,54,F,97.6,86.0,1,1,0,Multiple,Positive,1
+P01322,49,M,98.6,91.0,1,1,0,Hypertension,Negative,0
+P01323,27,F,99.5,90.0,0,1,0,Heart Disease,Negative,0
+P01324,34,F,99.7,95.0,1,0,0,Heart Disease,Negative,0
+P01325,57,M,98.0,95.0,0,1,1,Heart Disease,Negative,1
+P01326,22,F,98.5,100.0,0,1,0,None,Positive,0
+P01327,23,M,97.4,95.0,0,1,0,None,Positive,0
+P01328,67,F,95.7,92.0,1,1,0,Diabetes,Positive,0
+P01329,52,M,98.1,94.0,1,0,0,Diabetes,Positive,0
+P01330,39,M,98.1,90.0,0,0,0,Multiple,Positive,0
+P01331,18,F,98.0,98.0,1,0,0,None,Positive,0
+P01332,68,M,97.0,100.0,0,0,0,Hypertension,Positive,0
+P01333,56,F,99.4,96.0,1,0,0,Multiple,Positive,0
+P01334,69,F,99.6,95.0,1,1,0,Hypertension,Positive,0
+P01335,20,F,98.5,97.0,1,1,0,None,Negative,0
+P01336,46,F,97.4,93.0,1,1,1,Heart Disease,Positive,1
+P01337,63,F,97.7,94.0,0,1,0,Diabetes,Positive,0
+P01338,55,F,98.6,94.0,1,1,1,None,Positive,1
+P01339,19,F,99.9,99.0,1,0,0,None,Negative,0
+P01340,70,F,96.6,93.0,0,0,0,None,Positive,0
+P01341,80,M,97.8,84.0,0,0,1,None,Negative,1
+P01342,46,F,98.8,89.0,1,1,0,Heart Disease,Positive,1
+P01343,26,M,99.7,100.0,1,0,0,Hypertension,Positive,0
+P01344,28,M,96.6,94.0,1,0,0,None,Positive,0
+P01345,41,M,97.5,98.0,1,0,0,Diabetes,Negative,0
+P01346,46,M,95.1,95.0,1,1,0,None,Negative,0
+P01347,76,F,100.6,95.0,1,1,0,None,Negative,0
+P01348,38,F,96.9,89.0,0,1,0,Heart Disease,Negative,1
+P01349,48,M,99.3,100.0,1,1,1,Diabetes,Positive,1
+P01350,36,M,100.7,91.0,1,0,1,Hypertension,Negative,1
+P01351,38,M,100.7,91.0,1,1,0,Hypertension,Positive,0
+P01352,81,F,95.9,97.0,0,1,0,None,Positive,0
+P01353,93,F,100.1,100.0,1,0,0,None,Negative,0
+P01354,32,F,99.8,94.0,1,1,0,Diabetes,Positive,0
+P01355,64,F,100.0,86.0,1,1,0,None,Negative,1
+P01356,36,F,95.3,86.0,0,0,1,None,Negative,1
+P01357,23,M,97.7,100.0,1,0,0,Hypertension,Positive,0
+P01358,24,F,96.1,95.0,0,0,0,None,Negative,0
+P01359,30,M,97.9,100.0,1,1,0,Diabetes,Positive,0
+P01360,46,M,99.8,96.0,1,1,0,None,Positive,0
+P01361,49,M,101.5,91.0,1,1,1,None,Positive,1
+P01362,30,M,99.9,97.0,1,0,0,Multiple,Positive,0
+P01363,88,F,99.2,96.0,1,0,0,Hypertension,Positive,0
+P01364,26,F,97.8,97.0,1,0,0,None,Positive,0
+P01365,30,F,97.8,95.0,1,0,0,Heart Disease,Positive,0
+P01366,47,F,99.2,93.0,0,1,0,None,Positive,0
+P01367,31,F,98.4,100.0,0,1,0,None,Positive,0
+P01368,43,M,99.5,95.0,0,1,0,None,Positive,0
+P01369,41,F,98.4,96.0,0,1,0,None,Negative,0
+P01370,33,F,100.8,90.0,0,1,0,Diabetes,Positive,0
+P01371,49,F,100.1,90.0,1,1,0,None,Positive,0
+P01372,41,M,97.3,91.0,1,1,0,None,Negative,0
+P01373,67,M,99.7,90.0,1,1,1,None,Positive,1
+P01374,23,F,99.0,84.0,0,1,1,Diabetes,Negative,1
+P01375,21,M,97.5,92.0,1,1,1,None,Positive,1
+P01376,72,M,101.7,100.0,1,1,0,Diabetes,Negative,0
+P01377,50,M,99.1,93.0,1,1,0,None,Negative,0
+P01378,56,M,99.1,89.0,1,1,1,None,Negative,1
+P01379,63,F,99.8,99.0,0,1,1,Hypertension,Positive,1
+P01380,48,F,99.5,94.0,1,1,1,None,Positive,1
+P01381,34,M,100.1,93.0,1,1,0,Hypertension,Positive,0
+P01382,53,M,96.8,89.0,1,1,0,None,Negative,1
+P01383,48,M,100.7,95.0,0,0,0,Diabetes,Negative,0
+P01384,33,M,99.2,95.0,0,0,0,None,Negative,0
+P01385,66,M,99.0,97.0,1,1,0,Heart Disease,Positive,0
+P01386,12,M,97.5,95.0,1,1,1,Heart Disease,Positive,1
+P01387,50,F,97.2,94.0,1,1,0,Multiple,Positive,0
+P01388,67,M,97.2,95.0,0,0,0,Hypertension,Negative,0
+P01389,32,F,97.9,94.0,1,1,0,None,Positive,0
+P01390,59,F,98.7,88.0,1,1,1,Diabetes,Positive,1
+P01391,34,F,96.6,100.0,0,0,0,Diabetes,Negative,0
+P01392,62,M,101.2,98.0,1,1,1,None,Positive,1
+P01393,60,M,99.4,96.0,1,1,0,None,Positive,0
+P01394,61,F,97.0,94.0,1,0,1,None,Positive,1
+P01395,49,F,100.1,94.0,1,1,1,Heart Disease,Positive,1
+P01396,43,M,97.8,96.0,0,1,0,None,Positive,0
+P01397,41,M,97.4,100.0,0,0,1,Hypertension,Positive,1
+P01398,26,M,100.5,92.0,1,0,0,Diabetes,Negative,0
+P01399,95,M,97.6,96.0,0,1,0,None,Positive,0
+P01400,28,M,98.7,87.0,0,1,0,Diabetes,Positive,1
+P01401,38,F,100.0,99.0,1,1,1,None,Positive,1
+P01402,26,M,100.4,97.0,1,1,1,Multiple,Positive,1
+P01403,18,F,99.0,94.0,1,1,0,None,Negative,0
+P01404,76,F,96.0,84.0,0,1,0,Hypertension,Negative,1
+P01405,20,F,97.0,92.0,0,1,0,Heart Disease,Positive,0
+P01406,59,F,100.8,90.0,0,1,0,Heart Disease,Positive,0
+P01407,57,M,99.9,90.0,1,0,1,Hypertension,Positive,1
+P01408,34,F,99.6,86.0,1,1,0,None,Negative,1
+P01409,56,F,97.5,93.0,0,1,0,Heart Disease,Positive,0
+P01410,30,M,97.1,100.0,1,1,1,Heart Disease,Negative,1
+P01411,44,M,96.5,99.0,1,1,0,Multiple,Negative,0
+P01412,66,F,97.8,95.0,1,0,0,Heart Disease,Negative,0
+P01413,95,M,99.2,98.0,0,0,1,Multiple,Negative,1
+P01414,42,M,100.8,100.0,1,1,1,Hypertension,Positive,1
+P01415,70,M,98.4,90.0,1,1,0,Hypertension,Positive,0
+P01416,37,M,98.6,91.0,0,1,0,Hypertension,Positive,0
+P01417,22,M,100.0,93.0,1,1,0,Diabetes,Positive,0
+P01418,52,F,97.9,88.0,1,0,0,Heart Disease,Positive,1
+P01419,46,M,98.4,97.0,0,1,1,None,Positive,1
+P01420,41,M,98.7,93.0,1,1,1,None,Negative,1
+P01421,67,M,97.8,98.0,0,0,0,Hypertension,Negative,0
+P01422,73,M,99.3,99.0,1,0,0,Multiple,Negative,0
+P01423,60,F,98.8,100.0,0,1,0,None,Negative,0
+P01424,94,M,98.9,99.0,1,1,0,Diabetes,Positive,0
+P01425,51,F,97.1,93.0,1,0,0,Heart Disease,Negative,0
+P01426,15,M,99.8,92.0,1,0,0,Diabetes,Negative,0
+P01427,28,F,101.1,90.0,1,1,0,None,Negative,0
+P01428,26,M,99.7,95.0,0,0,0,None,Positive,0
+P01429,60,M,97.5,97.0,0,1,1,Multiple,Positive,1
+P01430,32,F,96.3,88.0,0,1,1,None,Positive,1
+P01431,27,M,98.4,100.0,1,0,0,None,Negative,0
+P01432,85,F,99.5,95.0,0,1,0,Diabetes,Negative,0
+P01433,44,M,97.6,93.0,0,1,0,None,Positive,0
+P01434,46,F,98.1,90.0,1,1,0,None,Positive,0
+P01435,59,F,100.3,100.0,1,1,0,None,Positive,0
+P01436,68,M,96.2,98.0,1,1,1,Multiple,Positive,1
+P01437,61,F,99.1,99.0,1,1,0,None,Positive,0
+P01438,78,M,97.0,94.0,1,0,0,None,Positive,0
+P01439,57,F,99.9,100.0,0,1,1,Heart Disease,Positive,1
+P01440,54,M,99.7,99.0,1,1,1,Heart Disease,Positive,1
+P01441,68,F,98.5,100.0,1,1,0,None,Positive,0
+P01442,59,F,99.0,100.0,1,1,1,None,Positive,1
+P01443,45,M,97.2,92.0,0,1,0,None,Negative,0
+P01444,56,F,99.9,96.0,1,1,1,Heart Disease,Positive,1
+P01445,28,M,99.2,100.0,0,0,0,None,Negative,0
+P01446,41,M,98.5,97.0,1,0,0,None,Positive,0
+P01447,35,M,97.4,90.0,1,1,0,Multiple,Positive,0
+P01448,57,M,98.7,95.0,1,1,0,Heart Disease,Positive,0
+P01449,95,M,98.0,99.0,1,1,0,None,Positive,0
+P01450,32,M,99.8,88.0,1,0,0,Heart Disease,Positive,1
+P01451,60,M,101.1,90.0,0,1,1,None,Negative,1
+P01452,66,M,99.6,88.0,0,1,0,None,Positive,1
+P01453,95,M,98.1,97.0,1,1,1,None,Negative,1
+P01454,32,M,100.8,100.0,0,1,0,Heart Disease,Positive,0
+P01455,30,M,98.0,85.0,1,1,0,None,Positive,1
+P01456,42,F,99.0,96.0,1,0,1,None,Negative,1
+P01457,45,M,98.0,92.0,1,1,0,None,Positive,0
+P01458,95,M,98.6,100.0,0,1,0,Hypertension,Positive,0
+P01459,84,M,96.0,96.0,1,1,1,Hypertension,Positive,1
+P01460,49,F,96.8,99.0,0,0,0,Heart Disease,Negative,0
+P01461,61,M,98.5,100.0,1,1,1,Hypertension,Positive,1
+P01462,51,M,99.0,96.0,1,0,0,None,Positive,0
+P01463,95,M,98.4,86.0,0,0,1,None,Positive,1
+P01464,32,F,99.9,94.0,0,0,0,Multiple,Negative,0
+P01465,55,M,95.4,96.0,1,1,1,Diabetes,Positive,1
+P01466,30,F,99.3,89.0,0,0,1,None,Negative,1
+P01467,68,M,100.6,86.0,1,1,0,None,Negative,1
+P01468,41,M,99.8,88.0,1,1,0,Diabetes,Positive,1
+P01469,48,F,99.6,100.0,1,0,0,Diabetes,Positive,0
+P01470,42,F,100.1,89.0,1,1,0,None,Positive,1
+P01471,43,F,96.8,100.0,1,1,0,Hypertension,Positive,0
+P01472,38,M,96.8,100.0,0,1,0,Heart Disease,Negative,0
+P01473,94,F,98.1,100.0,1,1,1,None,Positive,1
+P01474,57,F,98.4,87.0,0,0,0,Diabetes,Negative,1
+P01475,51,M,98.9,100.0,0,0,0,Multiple,Negative,0
+P01476,39,M,96.8,92.0,0,1,1,None,Positive,1
+P01477,59,M,98.2,86.0,1,1,0,Diabetes,Positive,1
+P01478,39,F,100.0,96.0,1,0,1,None,Positive,1
+P01479,21,M,98.1,97.0,0,1,0,None,Negative,0
+P01480,82,M,96.2,91.0,1,1,1,None,Negative,1
+P01481,49,F,96.2,92.0,1,1,0,Heart Disease,Positive,0
+P01482,18,M,100.1,94.0,1,1,1,Heart Disease,Positive,1
+P01483,27,M,100.8,94.0,1,1,0,Heart Disease,Positive,0
+P01484,27,F,97.4,99.0,1,1,1,Multiple,Positive,1
+P01485,67,F,99.9,94.0,1,1,1,Hypertension,Positive,1
+P01486,90,F,99.5,100.0,1,1,1,None,Positive,1
+P01487,36,F,96.5,97.0,1,1,1,None,Positive,1
+P01488,57,F,99.4,87.0,0,1,0,Heart Disease,Positive,1
+P01489,62,M,99.6,100.0,1,1,0,Heart Disease,Negative,0
+P01490,44,F,98.2,91.0,1,1,0,None,Positive,0
+P01491,32,F,98.0,100.0,0,0,0,None,Positive,0
+P01492,32,M,98.9,97.0,0,1,0,None,Positive,0
+P01493,47,F,97.4,91.0,0,1,0,Heart Disease,Positive,0
+P01494,39,F,100.4,93.0,1,1,0,Hypertension,Positive,0
+P01495,42,M,98.6,97.0,1,0,1,None,Positive,1
+P01496,20,M,98.0,96.0,0,1,0,Hypertension,Positive,0
+P01497,28,M,98.4,100.0,1,0,0,Heart Disease,Negative,0
+P01498,23,M,100.1,97.0,1,1,0,None,Positive,0
+P01499,45,M,98.4,95.0,1,0,0,Hypertension,Positive,0
+P01500,50,M,97.9,96.0,1,1,1,Hypertension,Positive,1
+P01501,60,F,96.2,94.0,0,1,0,None,Negative,0
+P01502,42,M,98.9,98.0,1,1,1,None,Positive,1
+P01503,61,M,98.2,97.0,1,1,0,Multiple,Positive,0
+P01504,28,M,96.8,96.0,1,1,1,None,Negative,1
+P01505,18,M,99.3,100.0,1,1,1,Hypertension,Positive,1
+P01506,48,F,97.0,97.0,1,1,0,None,Positive,0
+P01507,95,M,97.6,100.0,0,1,1,None,Negative,1
+P01508,94,F,99.3,92.0,1,0,1,None,Positive,1
+P01509,29,F,99.3,95.0,1,1,0,None,Negative,0
+P01510,27,M,98.7,84.0,0,1,1,None,Negative,1
+P01511,43,F,98.2,95.0,1,0,0,Diabetes,Negative,0
+P01512,38,M,97.9,92.0,1,1,0,None,Positive,0
+P01513,49,F,97.3,91.0,0,1,0,Hypertension,Negative,0
+P01514,58,F,98.2,96.0,1,0,0,Hypertension,Positive,0
+P01515,56,F,100.2,93.0,1,1,1,Heart Disease,Positive,1
+P01516,70,F,96.9,87.0,1,1,0,Heart Disease,Negative,1
+P01517,18,M,94.7,94.0,0,0,0,None,Positive,0
+P01518,27,F,97.5,100.0,0,1,0,Hypertension,Negative,0
+P01519,94,M,100.9,97.0,1,1,1,Hypertension,Negative,1
+P01520,23,F,98.0,96.0,0,0,0,None,Positive,0
+P01521,33,M,98.6,89.0,0,0,0,None,Positive,1
+P01522,86,F,98.7,89.0,0,1,0,None,Negative,1
+P01523,73,M,97.6,90.0,1,1,1,None,Negative,1
+P01524,33,F,100.6,96.0,0,1,0,None,Positive,0
+P01525,70,M,98.2,89.0,1,0,0,Hypertension,Positive,1
+P01526,38,M,100.2,100.0,0,1,1,None,Negative,1
+P01527,41,F,98.7,89.0,1,1,0,Diabetes,Positive,1
+P01528,57,F,98.7,99.0,1,1,1,Diabetes,Negative,1
+P01529,34,F,97.1,96.0,0,1,0,Heart Disease,Negative,0
+P01530,46,F,100.1,100.0,1,1,1,None,Negative,1
+P01531,48,F,98.3,90.0,0,1,1,None,Positive,1
+P01532,28,M,98.8,100.0,1,1,0,None,Positive,0
+P01533,52,M,101.1,96.0,1,1,0,Hypertension,Positive,0
+P01534,34,F,99.0,100.0,0,0,0,None,Positive,0
+P01535,55,F,98.9,97.0,1,0,0,None,Positive,0
+P01536,56,F,100.1,90.0,1,1,0,None,Negative,0
+P01537,47,F,99.6,91.0,1,1,1,None,Positive,1
+P01538,45,F,97.9,95.0,0,1,0,None,Negative,0
+P01539,26,M,97.7,91.0,1,1,1,Heart Disease,Negative,1
+P01540,52,M,99.3,96.0,1,1,0,None,Positive,0
+P01541,77,M,97.8,99.0,1,1,1,Heart Disease,Positive,1
+P01542,56,F,98.7,100.0,0,1,0,Diabetes,Negative,0
+P01543,27,F,96.7,100.0,0,1,1,None,Positive,1
+P01544,51,F,101.1,95.0,1,1,0,None,Positive,0
+P01545,35,M,97.7,93.0,0,1,0,None,Negative,0
+P01546,29,F,99.5,86.0,1,1,0,None,Negative,1
+P01547,38,F,99.5,83.0,1,1,0,Heart Disease,Positive,1
+P01548,63,F,101.2,95.0,1,1,0,Hypertension,Negative,0
+P01549,34,M,99.1,100.0,1,1,0,None,Negative,0
+P01550,28,M,98.0,96.0,1,0,0,Diabetes,Positive,0
+P01551,46,M,98.5,97.0,1,1,1,None,Positive,1
+P01552,80,M,97.3,90.0,0,0,0,None,Negative,0
+P01553,31,M,100.6,93.0,0,0,0,Multiple,Negative,0
+P01554,66,M,98.1,100.0,1,1,1,Hypertension,Positive,1
+P01555,43,F,101.2,97.0,0,1,0,None,Negative,0
+P01556,66,F,97.6,93.0,0,1,0,Hypertension,Negative,0
+P01557,47,F,102.5,98.0,0,1,0,None,Positive,1
+P01558,48,M,97.6,96.0,1,0,0,Hypertension,Positive,0
+P01559,37,M,97.5,100.0,1,1,0,Hypertension,Positive,0
+P01560,60,M,97.6,97.0,1,1,1,None,Positive,1
+P01561,58,M,97.6,93.0,1,1,1,None,Positive,1
+P01562,51,F,99.2,94.0,1,1,0,Hypertension,Negative,0
+P01563,58,F,97.4,88.0,1,0,0,None,Negative,1
+P01564,40,M,96.9,87.0,1,1,0,None,Positive,1
+P01565,55,M,97.2,93.0,1,1,0,None,Negative,0
+P01566,46,M,101.6,100.0,1,1,0,Heart Disease,Positive,0
+P01567,32,F,96.9,97.0,0,1,0,None,Positive,0
+P01568,29,M,98.9,94.0,1,0,0,None,Negative,0
+P01569,60,F,97.2,98.0,1,1,0,Hypertension,Positive,0
+P01570,35,F,99.3,100.0,1,1,0,Hypertension,Positive,0
+P01571,56,M,98.8,92.0,1,0,0,None,Negative,0
+P01572,18,M,101.1,92.0,0,0,0,None,Negative,0
+P01573,52,M,97.9,100.0,1,0,0,Hypertension,Positive,0
+P01574,39,F,99.2,91.0,0,0,0,None,Positive,0
+P01575,33,F,100.2,92.0,0,1,1,Heart Disease,Positive,1
+P01576,47,F,98.0,93.0,1,1,0,Heart Disease,Negative,0
+P01577,49,F,98.9,90.0,0,1,1,Diabetes,Positive,1
+P01578,50,F,96.3,85.0,1,1,1,Hypertension,Positive,1
+P01579,52,F,99.3,95.0,0,1,0,None,Positive,0
+P01580,45,M,98.9,92.0,0,0,1,None,Positive,1
+P01581,34,M,97.5,97.0,0,1,0,Multiple,Negative,0
+P01582,65,M,96.7,91.0,0,1,0,None,Negative,0
+P01583,43,F,98.2,100.0,0,1,1,None,Positive,1
+P01584,65,M,96.8,95.0,1,1,0,None,Positive,0
+P01585,43,M,98.7,91.0,0,0,0,Heart Disease,Positive,0
+P01586,11,M,99.5,92.0,1,1,0,Heart Disease,Positive,0
+P01587,39,F,96.0,94.0,1,1,0,None,Positive,0
+P01588,38,M,97.3,100.0,0,1,0,None,Positive,0
+P01589,49,M,101.0,92.0,1,1,0,None,Positive,0
+P01590,59,F,99.5,87.0,1,1,0,Hypertension,Positive,1
+P01591,63,M,96.5,100.0,0,1,1,None,Positive,1
+P01592,58,M,97.9,86.0,1,1,1,Hypertension,Negative,1
+P01593,48,F,95.9,100.0,1,1,0,Diabetes,Positive,0
+P01594,88,M,100.3,86.0,1,0,0,None,Negative,1
+P01595,55,F,98.6,93.0,1,0,0,None,Negative,0
+P01596,18,F,98.8,93.0,1,1,0,None,Positive,0
+P01597,25,M,100.4,99.0,1,1,0,None,Positive,0
+P01598,56,F,98.3,98.0,1,0,0,None,Negative,0
+P01599,32,M,99.0,100.0,0,1,1,None,Negative,1
+P01600,33,M,100.2,87.0,0,1,1,None,Positive,1
+P01601,36,M,97.4,86.0,0,1,0,Heart Disease,Positive,1
+P01602,33,M,96.7,100.0,0,1,0,None,Negative,0
+P01603,42,M,101.3,100.0,0,1,0,Heart Disease,Positive,0
+P01604,50,F,97.5,100.0,0,0,0,None,Negative,0
+P01605,30,F,95.1,99.0,0,1,1,None,Positive,1
+P01606,34,M,97.5,100.0,1,0,0,Heart Disease,Positive,0
+P01607,43,F,97.6,88.0,1,1,0,Diabetes,Negative,1
+P01608,44,M,101.6,94.0,0,1,0,None,Positive,0
+P01609,51,M,99.4,95.0,0,1,1,Multiple,Positive,1
+P01610,44,M,98.3,94.0,0,1,1,Heart Disease,Positive,1
+P01611,72,M,97.6,98.0,1,0,1,Diabetes,Positive,1
+P01612,83,F,99.6,95.0,0,1,1,None,Positive,1
+P01613,62,M,100.2,93.0,1,1,1,None,Positive,1
+P01614,49,M,99.3,89.0,1,1,0,None,Positive,1
+P01615,34,M,100.0,94.0,0,1,0,None,Positive,0
+P01616,38,M,100.9,89.0,0,1,1,None,Positive,1
+P01617,26,F,98.7,95.0,1,0,1,Heart Disease,Positive,1
+P01618,43,M,97.8,97.0,1,1,0,None,Negative,0
+P01619,23,F,98.0,92.0,0,1,0,Hypertension,Negative,0
+P01620,46,F,100.5,99.0,0,1,0,None,Positive,0
+P01621,71,F,99.7,100.0,1,0,0,None,Negative,0
+P01622,33,F,98.8,92.0,0,0,0,None,Positive,0
+P01623,59,M,97.8,93.0,0,1,0,Hypertension,Negative,0
+P01624,45,F,97.4,99.0,1,1,1,Diabetes,Positive,1
+P01625,44,F,98.6,90.0,1,1,0,None,Negative,0
+P01626,50,F,97.1,89.0,0,0,0,None,Negative,1
+P01627,55,F,98.3,93.0,1,1,0,Hypertension,Positive,0
+P01628,91,F,100.4,95.0,0,0,0,Diabetes,Positive,0
+P01629,42,M,98.4,92.0,0,1,0,None,Positive,0
+P01630,64,M,98.2,98.0,0,0,0,None,Positive,0
+P01631,49,F,98.8,88.0,1,1,0,None,Negative,1
+P01632,33,F,100.0,97.0,1,0,1,Diabetes,Positive,1
+P01633,82,M,101.3,92.0,1,1,1,None,Positive,1
+P01634,41,F,96.9,100.0,0,1,0,Hypertension,Positive,0
+P01635,25,M,100.4,100.0,1,0,0,Diabetes,Positive,0
+P01636,60,F,99.8,96.0,1,1,0,None,Positive,0
+P01637,61,F,96.7,95.0,0,0,0,None,Positive,0
+P01638,42,M,97.1,92.0,0,1,1,None,Positive,1
+P01639,55,F,100.0,82.0,0,1,0,None,Negative,1
+P01640,51,F,99.4,96.0,0,1,1,Diabetes,Positive,1
+P01641,24,M,96.0,100.0,1,1,1,None,Positive,1
+P01642,20,F,97.4,90.0,0,1,0,None,Negative,0
+P01643,95,M,99.4,91.0,0,1,0,None,Negative,0
+P01644,63,F,100.0,96.0,1,0,0,None,Positive,0
+P01645,67,M,99.2,89.0,0,0,0,None,Positive,1
+P01646,41,F,95.4,91.0,1,1,0,None,Negative,0
+P01647,49,M,97.5,93.0,0,1,0,Diabetes,Positive,0
+P01648,49,M,97.1,96.0,0,1,0,None,Positive,0
+P01649,32,M,99.6,100.0,1,1,0,None,Positive,0
+P01650,33,F,97.9,95.0,0,1,0,None,Positive,0
+P01651,71,F,99.4,97.0,0,1,0,None,Positive,0
+P01652,71,M,98.9,95.0,0,0,1,Heart Disease,Positive,1
+P01653,47,F,96.8,96.0,0,1,0,None,Positive,0
+P01654,19,M,99.9,96.0,1,1,1,Heart Disease,Positive,1
+P01655,54,F,100.3,100.0,1,1,0,Diabetes,Positive,0
+P01656,40,M,100.0,100.0,0,1,1,Diabetes,Negative,1
+P01657,20,F,98.9,94.0,1,1,0,Hypertension,Positive,0
+P01658,89,F,98.5,93.0,1,1,0,Hypertension,Negative,0
+P01659,65,F,97.7,100.0,1,1,0,None,Positive,0
+P01660,39,F,100.5,100.0,1,1,0,None,Negative,0
+P01661,30,F,101.0,97.0,1,1,0,Heart Disease,Negative,0
+P01662,73,F,97.6,100.0,1,1,0,None,Negative,0
+P01663,46,F,97.0,100.0,1,0,1,None,Negative,1
+P01664,60,F,97.0,94.0,0,1,0,None,Negative,0
+P01665,69,M,97.2,100.0,1,1,1,None,Positive,1
+P01666,39,M,99.1,96.0,1,0,0,Heart Disease,Negative,0
+P01667,35,M,96.6,96.0,0,1,0,None,Negative,0
+P01668,50,F,97.8,99.0,0,0,0,None,Negative,0
+P01669,63,F,97.8,100.0,1,1,1,Diabetes,Negative,1
+P01670,27,M,98.9,98.0,1,1,0,None,Positive,0
+P01671,74,M,98.3,100.0,0,1,0,None,Negative,0
+P01672,44,M,99.3,100.0,1,1,0,None,Positive,0
+P01673,55,M,98.4,100.0,1,1,1,Heart Disease,Positive,1
+P01674,46,M,98.9,98.0,0,1,0,Heart Disease,Positive,0
+P01675,54,M,101.5,96.0,0,1,0,None,Positive,0
+P01676,39,M,98.8,93.0,0,1,1,None,Negative,1
+P01677,52,M,99.0,98.0,1,1,0,Multiple,Positive,0
+P01678,54,M,102.2,93.0,1,1,1,Multiple,Positive,1
+P01679,37,M,98.4,96.0,0,1,0,Diabetes,Negative,0
+P01680,70,F,100.8,90.0,0,1,0,Heart Disease,Negative,0
+P01681,73,F,100.4,100.0,1,1,0,Heart Disease,Positive,0
+P01682,15,F,97.2,90.0,0,1,0,None,Positive,0
+P01683,24,M,98.8,98.0,1,1,1,None,Negative,1
+P01684,41,M,99.6,91.0,1,0,0,Heart Disease,Positive,0
+P01685,36,F,100.0,88.0,1,1,1,None,Positive,1
+P01686,63,F,97.4,98.0,1,1,1,None,Negative,1
+P01687,28,M,97.4,100.0,0,1,1,None,Positive,1
+P01688,63,F,99.9,91.0,0,0,0,None,Positive,0
+P01689,45,F,97.1,98.0,1,1,0,None,Negative,0
+P01690,63,F,98.1,100.0,1,0,0,Diabetes,Positive,0
+P01691,69,F,96.5,100.0,0,1,0,None,Positive,0
+P01692,74,F,97.4,94.0,1,0,1,None,Positive,1
+P01693,55,F,98.2,95.0,1,1,1,Diabetes,Positive,1
+P01694,85,F,98.4,96.0,0,1,0,Heart Disease,Positive,0
+P01695,34,F,98.8,99.0,1,1,0,None,Positive,0
+P01696,51,F,98.4,94.0,0,1,1,Hypertension,Positive,1
+P01697,62,M,100.0,99.0,1,0,1,None,Positive,1
+P01698,52,F,100.5,95.0,0,0,0,Diabetes,Positive,0
+P01699,85,M,97.6,92.0,0,1,1,None,Positive,1
+P01700,73,M,96.1,98.0,0,1,0,None,Negative,0
+P01701,40,M,99.2,92.0,1,1,0,Heart Disease,Positive,0
+P01702,38,F,100.1,90.0,0,0,0,None,Negative,0
+P01703,43,F,97.4,95.0,1,1,1,None,Positive,1
+P01704,49,F,98.1,91.0,1,1,0,Diabetes,Positive,0
+P01705,22,F,100.1,94.0,1,1,0,None,Positive,0
+P01706,40,F,100.3,100.0,1,0,0,Heart Disease,Positive,0
+P01707,81,F,99.3,92.0,0,1,0,Heart Disease,Negative,0
+P01708,17,F,98.7,89.0,0,1,0,None,Negative,1
+P01709,95,F,97.9,98.0,1,1,1,Heart Disease,Positive,1
+P01710,44,F,98.9,100.0,1,0,0,Heart Disease,Positive,0
+P01711,51,M,98.7,93.0,0,1,1,None,Positive,1
+P01712,52,F,99.6,100.0,1,1,0,Diabetes,Negative,0
+P01713,72,F,99.2,98.0,0,1,0,Heart Disease,Positive,0
+P01714,54,F,96.5,100.0,1,0,0,None,Negative,0
+P01715,46,M,98.4,91.0,0,1,0,Heart Disease,Positive,0
+P01716,26,F,100.6,86.0,1,1,1,Heart Disease,Positive,1
+P01717,74,F,95.0,98.0,1,1,0,None,Negative,0
+P01718,53,M,96.6,95.0,1,1,0,None,Positive,0
+P01719,43,F,97.1,96.0,1,1,0,Hypertension,Positive,0
+P01720,66,M,99.6,97.0,0,1,0,None,Negative,0
+P01721,33,M,97.9,100.0,1,1,0,None,Positive,0
+P01722,72,F,98.8,92.0,1,1,0,Diabetes,Negative,0
+P01723,60,F,99.3,100.0,1,1,0,Multiple,Negative,0
+P01724,52,M,99.3,93.0,1,1,0,None,Positive,0
+P01725,45,F,97.6,98.0,0,1,0,Hypertension,Positive,0
+P01726,50,M,98.1,97.0,1,1,0,None,Negative,0
+P01727,83,F,98.3,91.0,1,1,0,None,Negative,0
+P01728,56,M,101.1,97.0,0,1,0,Multiple,Positive,0
+P01729,95,F,98.3,90.0,1,1,1,Hypertension,Negative,1
+P01730,46,M,99.5,85.0,1,1,1,None,Positive,1
+P01731,31,M,99.7,100.0,0,0,0,None,Positive,0
+P01732,79,M,100.2,100.0,1,1,1,None,Positive,1
+P01733,48,F,99.9,88.0,0,0,1,None,Positive,1
+P01734,63,M,98.7,94.0,1,1,0,None,Positive,0
+P01735,52,F,99.3,90.0,1,1,0,None,Positive,0
+P01736,36,F,102.3,98.0,0,1,1,None,Positive,1
+P01737,95,M,97.5,100.0,1,1,0,Multiple,Positive,0
+P01738,49,M,97.8,91.0,1,0,0,None,Positive,0
+P01739,29,F,96.9,84.0,1,0,0,None,Positive,1
+P01740,81,M,98.9,98.0,1,0,0,None,Negative,0
+P01741,39,M,97.9,98.0,0,1,0,Heart Disease,Positive,0
+P01742,67,F,97.0,91.0,1,0,0,None,Positive,0
+P01743,60,M,98.6,93.0,1,1,0,Heart Disease,Positive,0
+P01744,17,F,96.5,91.0,0,1,1,Hypertension,Positive,1
+P01745,60,M,100.5,95.0,1,1,0,Multiple,Negative,0
+P01746,39,M,100.2,99.0,1,1,0,None,Negative,0
+P01747,20,F,101.2,97.0,0,0,0,Multiple,Negative,0
+P01748,33,M,102.6,98.0,0,1,0,None,Negative,1
+P01749,69,F,96.2,89.0,1,1,0,Diabetes,Positive,1
+P01750,53,M,98.4,92.0,0,1,1,None,Positive,1
+P01751,21,M,100.5,100.0,1,1,1,None,Positive,1
+P01752,44,F,100.5,89.0,0,1,1,None,Positive,1
+P01753,25,F,99.9,91.0,1,1,1,Diabetes,Negative,1
+P01754,47,F,97.0,98.0,0,1,1,None,Positive,1
+P01755,51,F,99.0,86.0,1,1,0,Heart Disease,Positive,1
+P01756,82,F,100.2,90.0,1,1,0,Diabetes,Positive,0
+P01757,95,M,98.1,99.0,1,1,1,None,Positive,1
+P01758,31,F,97.5,87.0,1,1,1,Multiple,Positive,1
+P01759,48,F,98.2,91.0,0,0,0,None,Positive,0
+P01760,73,F,97.8,98.0,1,1,0,None,Positive,0
+P01761,16,F,99.0,89.0,0,0,0,None,Positive,1
+P01762,23,F,96.4,99.0,1,0,0,Diabetes,Positive,0
+P01763,53,F,101.1,96.0,1,0,0,Hypertension,Positive,0
+P01764,59,F,97.8,94.0,0,1,0,Heart Disease,Positive,0
+P01765,33,M,97.1,86.0,0,0,1,None,Negative,1
+P01766,55,F,98.0,95.0,1,0,0,Hypertension,Negative,0
+P01767,46,M,99.0,87.0,1,0,0,None,Negative,1
+P01768,26,M,96.3,86.0,1,0,0,None,Positive,1
+P01769,25,M,97.7,97.0,1,1,0,None,Positive,0
+P01770,51,M,98.5,96.0,1,1,1,Hypertension,Positive,1
+P01771,46,F,97.6,85.0,1,1,0,None,Negative,1
+P01772,35,F,97.2,94.0,1,0,1,Diabetes,Negative,1
+P01773,28,M,100.0,97.0,1,1,0,None,Positive,0
+P01774,85,F,100.0,96.0,0,1,0,Diabetes,Positive,0
+P01775,48,M,100.0,96.0,1,0,0,None,Positive,0
+P01776,89,M,99.4,94.0,1,1,0,Multiple,Positive,0
+P01777,52,M,96.8,100.0,1,0,1,None,Negative,1
+P01778,34,M,98.6,96.0,0,0,1,None,Negative,1
+P01779,35,M,100.6,100.0,1,1,1,None,Positive,1
+P01780,48,F,96.8,95.0,1,0,1,Heart Disease,Positive,1
+P01781,95,F,97.1,89.0,0,0,1,None,Positive,1
+P01782,64,F,99.0,96.0,0,1,0,None,Positive,0
+P01783,81,F,99.7,88.0,1,1,1,None,Negative,1
+P01784,61,F,99.6,97.0,0,1,0,None,Negative,0
+P01785,48,M,99.1,100.0,1,1,0,Heart Disease,Positive,0
+P01786,40,F,97.1,95.0,0,0,0,Multiple,Negative,0
+P01787,52,M,99.3,95.0,0,0,0,Hypertension,Negative,0
+P01788,18,F,97.7,100.0,1,1,0,Hypertension,Positive,0
+P01789,45,M,99.1,96.0,1,1,0,None,Positive,0
+P01790,35,M,98.4,100.0,1,1,1,Hypertension,Positive,1
+P01791,55,M,98.1,95.0,0,1,0,Heart Disease,Negative,0
+P01792,80,M,102.1,97.0,1,1,0,None,Positive,1
+P01793,57,M,96.8,100.0,0,1,1,None,Positive,1
+P01794,67,M,97.5,88.0,1,1,1,None,Positive,1
+P01795,46,F,100.2,99.0,1,1,0,Multiple,Negative,0
+P01796,39,F,101.2,93.0,1,1,0,None,Positive,0
+P01797,67,M,99.6,93.0,0,0,0,Multiple,Positive,0
+P01798,52,M,98.3,99.0,1,1,0,None,Negative,0
+P01799,60,F,97.4,92.0,1,1,0,None,Positive,0
+P01800,44,M,99.9,94.0,1,1,0,None,Positive,0
+P01801,38,F,98.6,94.0,1,0,0,None,Negative,0
+P01802,43,M,97.8,95.0,0,1,1,Multiple,Positive,1
+P01803,48,F,100.2,92.0,1,1,0,Diabetes,Positive,0
+P01804,74,M,98.4,98.0,1,0,0,None,Positive,0
+P01805,67,F,96.6,89.0,1,1,1,Diabetes,Positive,1
+P01806,54,F,98.8,86.0,1,0,1,None,Negative,1
+P01807,57,F,98.1,94.0,1,1,0,Hypertension,Positive,0
+P01808,57,M,97.1,98.0,1,1,0,None,Negative,0
+P01809,87,F,99.1,98.0,1,1,0,Diabetes,Negative,0
+P01810,39,F,99.3,97.0,1,0,0,Hypertension,Negative,0
+P01811,77,M,94.8,93.0,0,1,0,Multiple,Negative,0
+P01812,25,M,100.2,97.0,1,0,0,Heart Disease,Positive,0
+P01813,45,M,100.1,94.0,1,1,0,Hypertension,Positive,0
+P01814,38,F,98.4,95.0,0,0,1,None,Positive,1
+P01815,54,M,97.4,82.0,1,0,0,Heart Disease,Positive,1
+P01816,88,F,99.4,93.0,1,1,1,None,Positive,1
+P01817,49,F,98.6,85.0,0,1,0,Diabetes,Negative,1
+P01818,48,F,97.8,100.0,1,1,0,None,Positive,0
+P01819,33,F,97.8,99.0,1,1,0,None,Positive,0
+P01820,55,F,98.9,100.0,1,1,0,Heart Disease,Positive,0
+P01821,45,M,100.6,92.0,1,1,0,None,Negative,0
+P01822,28,M,96.6,95.0,0,0,0,None,Positive,0
+P01823,40,M,99.1,89.0,0,1,1,None,Negative,1
+P01824,47,M,97.3,89.0,1,1,1,Heart Disease,Negative,1
+P01825,43,M,99.1,94.0,1,1,1,None,Positive,1
+P01826,20,M,99.5,92.0,1,1,0,Hypertension,Positive,0
+P01827,71,M,96.7,97.0,1,1,0,None,Positive,0
+P01828,72,F,99.5,97.0,1,1,0,None,Positive,0
+P01829,71,F,99.0,93.0,1,1,1,None,Positive,1
+P01830,32,F,100.6,99.0,1,1,0,Hypertension,Positive,0
+P01831,25,F,98.6,89.0,0,1,0,None,Negative,1
+P01832,38,F,99.0,89.0,1,1,0,None,Positive,1
+P01833,60,M,99.2,98.0,1,1,1,Diabetes,Positive,1
+P01834,95,M,100.7,98.0,1,1,1,Hypertension,Negative,1
+P01835,40,M,95.9,99.0,1,1,1,Diabetes,Positive,1
+P01836,39,F,96.3,88.0,1,1,1,None,Negative,1
+P01837,35,M,98.4,91.0,0,0,1,Diabetes,Negative,1
+P01838,22,F,99.1,97.0,1,1,1,Multiple,Negative,1
+P01839,51,F,96.1,97.0,1,1,0,Diabetes,Positive,0
+P01840,73,M,98.5,100.0,1,1,0,None,Negative,0
+P01841,58,F,97.5,90.0,1,1,1,None,Positive,1
+P01842,42,F,96.7,100.0,1,1,0,Multiple,Positive,0
+P01843,28,M,98.3,98.0,1,1,0,Hypertension,Negative,0
+P01844,36,M,99.7,100.0,1,0,1,None,Positive,1
+P01845,60,M,101.4,98.0,0,1,1,None,Positive,1
+P01846,43,M,101.8,91.0,1,1,1,Hypertension,Positive,1
+P01847,95,F,100.5,92.0,1,1,1,Multiple,Positive,1
+P01848,55,M,99.1,95.0,1,0,0,None,Positive,0
+P01849,58,M,98.4,87.0,0,1,0,None,Positive,1
+P01850,41,M,98.8,87.0,1,0,1,None,Positive,1
+P01851,54,M,98.8,92.0,0,1,0,Heart Disease,Positive,0
+P01852,41,F,100.3,99.0,0,0,0,Diabetes,Negative,0
+P01853,51,F,101.0,92.0,1,0,0,Diabetes,Positive,0
+P01854,64,F,96.9,95.0,0,1,0,None,Negative,0
+P01855,30,M,98.2,94.0,0,0,0,None,Negative,0
+P01856,55,M,100.0,100.0,1,1,1,None,Negative,1
+P01857,50,F,98.4,97.0,1,0,1,Hypertension,Negative,1
+P01858,91,F,98.0,99.0,0,1,0,None,Negative,0
+P01859,33,M,100.3,100.0,0,0,1,Heart Disease,Negative,1
+P01860,45,F,97.8,90.0,1,1,1,Hypertension,Negative,1
+P01861,38,M,99.6,85.0,1,1,0,Diabetes,Positive,1
+P01862,29,M,98.1,93.0,1,0,0,None,Positive,0
+P01863,51,F,101.9,100.0,0,0,0,None,Positive,0
+P01864,20,F,100.5,98.0,0,1,0,None,Negative,0
+P01865,40,M,98.1,93.0,1,1,1,None,Positive,1
+P01866,41,M,99.0,100.0,1,1,0,Diabetes,Negative,0
+P01867,38,F,99.5,99.0,1,1,0,Heart Disease,Negative,0
+P01868,35,F,98.0,92.0,1,1,0,Heart Disease,Positive,0
+P01869,24,F,98.1,100.0,0,1,0,Hypertension,Positive,0
+P01870,42,M,99.9,87.0,0,1,1,None,Negative,1
+P01871,71,F,98.6,97.0,0,1,0,Diabetes,Negative,0
+P01872,54,F,96.5,92.0,0,1,1,None,Positive,1
+P01873,56,F,99.4,95.0,1,0,0,Multiple,Positive,0
+P01874,58,M,100.0,98.0,1,0,0,None,Positive,0
+P01875,46,M,98.1,100.0,0,1,0,Diabetes,Positive,0
+P01876,35,M,97.4,96.0,1,1,1,None,Negative,1
+P01877,83,M,100.6,94.0,1,0,1,None,Positive,1
+P01878,38,M,98.8,86.0,0,1,0,Heart Disease,Negative,1
+P01879,69,F,98.5,87.0,1,1,0,Hypertension,Negative,1
+P01880,86,M,98.5,82.0,1,0,0,None,Negative,1
+P01881,42,F,100.8,96.0,1,1,0,Hypertension,Positive,0
+P01882,33,M,99.0,100.0,0,1,0,None,Positive,0
+P01883,74,M,99.3,83.0,1,1,1,None,Positive,1
+P01884,37,M,98.4,100.0,1,1,1,Heart Disease,Positive,1
+P01885,68,F,98.6,100.0,0,1,1,None,Negative,1
+P01886,57,M,98.1,96.0,0,1,0,Heart Disease,Negative,0
+P01887,43,F,99.3,100.0,1,1,1,None,Positive,1
+P01888,23,F,96.9,95.0,1,1,0,None,Positive,0
+P01889,53,M,99.0,89.0,0,0,0,None,Positive,1
+P01890,50,F,98.1,93.0,0,1,0,Heart Disease,Positive,0
+P01891,59,F,97.8,100.0,0,1,0,Hypertension,Negative,0
+P01892,76,M,99.3,92.0,1,1,0,Heart Disease,Positive,0
+P01893,88,F,98.6,97.0,0,1,0,Heart Disease,Positive,0
+P01894,54,M,97.1,98.0,0,1,0,Hypertension,Negative,0
+P01895,36,M,97.3,100.0,1,1,0,None,Positive,0
+P01896,68,F,98.9,86.0,1,0,1,None,Negative,1
+P01897,39,F,97.4,100.0,1,0,0,None,Positive,0
+P01898,20,F,96.1,90.0,1,0,0,Multiple,Positive,0
+P01899,42,F,99.8,100.0,1,1,0,None,Positive,0
+P01900,39,M,96.7,93.0,0,0,0,Hypertension,Positive,0
+P01901,55,M,98.1,93.0,1,0,0,Heart Disease,Negative,0
+P01902,94,F,97.2,99.0,1,0,1,Heart Disease,Positive,1
+P01903,76,M,97.2,100.0,0,1,1,None,Positive,1
+P01904,84,F,99.1,93.0,0,1,0,None,Positive,0
+P01905,28,M,97.6,94.0,1,1,0,Heart Disease,Positive,0
+P01906,93,F,98.3,92.0,0,0,0,Heart Disease,Positive,0
+P01907,52,F,95.9,92.0,0,1,0,Hypertension,Positive,0
+P01908,60,F,101.2,97.0,1,1,1,None,Positive,1
+P01909,33,F,99.1,95.0,0,1,0,Heart Disease,Positive,0
+P01910,75,M,100.7,100.0,0,1,1,None,Negative,1
+P01911,44,M,100.5,92.0,1,1,0,None,Positive,0
+P01912,37,F,100.4,99.0,0,1,0,Diabetes,Negative,0
+P01913,39,F,98.2,99.0,1,0,1,Multiple,Negative,1
+P01914,39,M,98.7,94.0,1,1,1,Multiple,Negative,1
+P01915,58,F,97.1,94.0,0,0,0,None,Negative,0
+P01916,30,M,98.7,97.0,0,1,0,Heart Disease,Negative,0
+P01917,33,F,96.7,92.0,1,1,0,Diabetes,Positive,0
+P01918,42,F,100.7,93.0,1,0,0,Heart Disease,Positive,0
+P01919,26,M,99.9,88.0,1,1,0,Heart Disease,Positive,1
+P01920,68,M,99.5,90.0,0,1,0,Diabetes,Negative,0
+P01921,62,M,97.8,90.0,0,1,0,Hypertension,Positive,0
+P01922,40,M,100.4,90.0,0,1,1,Diabetes,Positive,1
+P01923,46,F,96.2,86.0,1,0,0,None,Positive,1
+P01924,60,F,98.4,87.0,0,1,0,Multiple,Positive,1
+P01925,38,M,98.8,99.0,1,0,0,None,Positive,0
+P01926,51,M,101.0,94.0,0,1,0,Multiple,Positive,0
+P01927,53,F,96.7,100.0,0,1,1,None,Negative,1
+P01928,75,F,100.6,100.0,1,1,0,Hypertension,Positive,0
+P01929,68,F,100.3,93.0,0,1,0,Heart Disease,Positive,0
+P01930,56,M,100.4,90.0,1,0,1,None,Positive,1
+P01931,49,M,97.7,96.0,1,1,0,Hypertension,Positive,0
+P01932,30,F,99.3,93.0,1,1,0,Diabetes,Negative,0
+P01933,74,M,100.0,98.0,0,0,0,Hypertension,Positive,0
+P01934,54,F,99.0,85.0,0,1,0,Heart Disease,Positive,1
+P01935,92,F,99.1,97.0,1,1,0,None,Positive,0
+P01936,64,M,99.3,100.0,1,1,0,None,Positive,0
+P01937,52,F,97.6,93.0,0,1,1,None,Positive,1
+P01938,45,M,97.6,98.0,1,0,0,Hypertension,Positive,0
+P01939,29,F,99.8,89.0,1,1,0,None,Positive,1
+P01940,54,F,97.7,92.0,0,1,0,None,Positive,0
+P01941,33,M,99.1,91.0,1,0,0,Diabetes,Positive,0
+P01942,95,F,96.7,100.0,0,0,0,Heart Disease,Negative,0
+P01943,37,F,98.3,100.0,1,0,0,None,Negative,0
+P01944,42,F,100.9,93.0,1,0,0,Hypertension,Negative,0
+P01945,51,F,98.9,100.0,0,0,0,None,Negative,0
+P01946,48,F,100.4,98.0,1,1,1,None,Positive,1
+P01947,36,F,101.1,93.0,1,1,0,Diabetes,Positive,0
+P01948,46,F,100.0,100.0,0,1,1,None,Negative,1
+P01949,86,M,99.3,92.0,0,0,0,None,Positive,0
+P01950,20,F,98.4,92.0,1,0,1,Hypertension,Negative,1
+P01951,55,M,98.3,90.0,1,1,1,None,Positive,1
+P01952,51,F,98.1,99.0,1,1,1,None,Positive,1
+P01953,20,M,100.3,90.0,0,1,0,Hypertension,Negative,0
+P01954,53,F,98.9,94.0,1,0,1,None,Positive,1
+P01955,86,M,99.9,93.0,0,1,1,Hypertension,Positive,1
+P01956,29,F,101.1,92.0,0,0,0,None,Negative,0
+P01957,46,M,101.5,94.0,1,1,0,None,Positive,0
+P01958,44,F,99.6,93.0,0,1,0,None,Negative,0
+P01959,82,F,99.6,100.0,1,0,0,Heart Disease,Positive,0
+P01960,35,F,98.3,97.0,1,1,0,Heart Disease,Positive,0
+P01961,36,F,100.0,95.0,1,1,0,None,Positive,0
+P01962,27,F,97.3,93.0,1,1,0,Diabetes,Positive,0
+P01963,49,F,98.8,89.0,1,1,1,Heart Disease,Positive,1
+P01964,82,F,97.1,92.0,0,1,1,Diabetes,Positive,1
+P01965,45,M,96.7,95.0,0,1,1,Hypertension,Positive,1
+P01966,38,M,99.1,95.0,0,0,1,Heart Disease,Positive,1
+P01967,88,F,97.1,96.0,0,1,0,Hypertension,Negative,0
+P01968,41,M,97.8,100.0,1,0,1,None,Positive,1
+P01969,52,M,99.3,93.0,0,1,0,Heart Disease,Negative,0
+P01970,42,F,100.0,100.0,0,0,0,None,Negative,0
+P01971,67,M,101.6,94.0,1,1,0,None,Positive,0
+P01972,59,F,95.8,96.0,1,0,0,Diabetes,Positive,0
+P01973,35,F,97.3,95.0,1,0,0,Hypertension,Positive,0
+P01974,95,F,95.8,100.0,0,1,0,None,Negative,0
+P01975,66,M,96.7,91.0,0,1,0,None,Negative,0
+P01976,48,F,99.4,99.0,1,1,1,Multiple,Positive,1
+P01977,76,M,98.6,100.0,0,1,0,None,Negative,0
+P01978,53,F,96.2,94.0,1,1,1,Diabetes,Positive,1
+P01979,39,F,99.1,81.0,1,0,1,None,Positive,1
+P01980,47,M,100.9,89.0,1,1,0,None,Positive,1
+P01981,42,F,97.0,93.0,1,1,0,None,Positive,0
+P01982,62,F,99.2,97.0,0,1,1,None,Positive,1
+P01983,28,F,101.0,100.0,1,0,0,Diabetes,Positive,0
+P01984,46,M,97.3,94.0,1,1,1,None,Positive,1
+P01985,26,F,98.5,93.0,0,1,0,None,Positive,0
+P01986,54,M,96.4,98.0,1,1,0,Hypertension,Negative,0
+P01987,65,F,100.6,94.0,1,1,0,None,Negative,0
+P01988,41,M,99.2,95.0,1,0,0,None,Positive,0
+P01989,45,M,97.7,93.0,1,1,0,Hypertension,Positive,0
+P01990,58,F,98.3,100.0,1,1,0,None,Positive,0
+P01991,37,M,100.0,96.0,1,1,0,Hypertension,Positive,0
+P01992,42,F,96.2,100.0,1,0,0,None,Negative,0
+P01993,31,F,97.4,97.0,1,0,0,Heart Disease,Negative,0
+P01994,42,F,98.9,100.0,1,1,1,None,Positive,1
+P01995,82,M,99.9,99.0,1,1,0,None,Positive,0
+P01996,77,M,99.3,99.0,0,1,1,None,Positive,1
+P01997,38,M,96.4,97.0,1,1,0,Hypertension,Positive,0
+P01998,46,F,100.1,87.0,1,0,0,Diabetes,Positive,1
+P01999,66,F,100.4,87.0,0,1,0,None,Positive,1

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Bootcamp - Installation Session</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
+    
+    <style>
+        .reveal {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+        .reveal h1, .reveal h2, .reveal h3 {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        .reveal h1 {
+            font-size: 2.5em;
+        }
+        .reveal h2 {
+            font-size: 1.8em;
+        }
+        .reveal .slides section {
+            text-align: left;
+        }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+            text-align: center;
+        }
+        .emoji-large {
+            font-size: 3em;
+            display: block;
+            text-align: center;
+            margin: 0.5em 0;
+        }
+        .success-box {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .error-box {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-box {
+            background: #d1ecf1;
+            border: 2px solid #17a2b8;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .code-box {
+            background: #f4f4f4;
+            border-left: 4px solid #007bff;
+            padding: 15px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            border-radius: 5px;
+        }
+        .center-content {
+            text-align: center !important;
+        }
+        .progress-indicator {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .progress-step {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            margin: 0 10px;
+        }
+        .progress-step.active {
+            background: #28a745;
+        }
+        .progress-step.current {
+            background: #007bff;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        .highlight-yellow {
+            background: yellow;
+            padding: 2px 5px;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .reveal .slides section.center-slide {
+            text-align: center !important;
+        }
+        .reveal .slides section.center-slide * {
+            text-align: center !important;
+        }
+        .big-emoji {
+            font-size: 5em;
+            display: block;
+            margin: 0.3em 0;
+        }
+        .medium-emoji {
+            font-size: 2em;
+            vertical-align: middle;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #f2f2f2;
+        }
+        .check-mark {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .cross-mark {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- Slide 1: Title Slide -->
+            <section class="center-slide">
+                <h1>🚀 Data Science Bootcamp</h1>
+                <h2>Environment Setup Session</h2>
+                <br>
+                <p style="font-size: 1.2em;">Setting Up Your Development Environment</p>
+                <p style="font-size: 1em; color: #666;">Duration: 45 minutes</p>
+                <br>
+                <div class="info-box">
+                    <strong>Today's Goal:</strong> Get everyone ready to run Jupyter notebooks!
+                </div>
+            </section>
+
+            <!-- Slide 2: Welcome & Reassurance -->
+            <section class="center-slide">
+                <span class="big-emoji">👋</span>
+                <h2>Welcome!</h2>
+                <br>
+                <p style="font-size: 1.2em;">Don't worry if you're new to programming!</p>
+                <br>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>✅ We'll go step-by-step</li>
+                    <li>✅ No one gets left behind</li>
+                    <li>✅ Multiple ways to get help</li>
+                    <li>✅ Alternative options available</li>
+                </ul>
+            </section>
+
+            <!-- Slide 3: What We're Building -->
+            <section>
+                <h2>🎯 What We're Setting Up</h2>
+                <br>
+                <div class="two-column">
+                    <div>
+                        <h3>Components:</h3>
+                        <ul>
+                            <li><span class="medium-emoji">🐍</span> Python (programming language)</li>
+                            <li><span class="medium-emoji">📦</span> Miniconda (package manager)</li>
+                            <li><span class="medium-emoji">📓</span> Jupyter (interactive notebooks)</li>
+                            <li><span class="medium-emoji">📊</span> Data science libraries</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Why This Setup?</h3>
+                        <ul>
+                            <li>✨ Industry standard</li>
+                            <li>🚀 Lightweight & fast</li>
+                            <li>🔄 Reproducible</li>
+                            <li>💼 Professional skill</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Overview of Process -->
+            <section>
+                <h2>📋 Installation Overview</h2>
+                <br>
+                <div class="progress-indicator">
+                    <div class="progress-step current">1</div>
+                    <div class="progress-step">2</div>
+                    <div class="progress-step">3</div>
+                    <div class="progress-step">4</div>
+                    <div class="progress-step">5</div>
+                </div>
+                <br>
+                <ol style="font-size: 1.1em;">
+                    <li><span class="step-number">1</span> Check your operating system</li>
+                    <li><span class="step-number">2</span> Download Miniconda</li>
+                    <li><span class="step-number">3</span> Install Miniconda</li>
+                    <li><span class="step-number">4</span> Create our environment</li>
+                    <li><span class="step-number">5</span> Verify everything works</li>
+                </ol>
+            </section>
+
+            <!-- Slide 5: Check Your OS -->
+            <section class="center-slide">
+                <h2>🖥️ Step 1: Know Your Operating System</h2>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operating System</th>
+                        <th>How to Check</th>
+                        <th>You'll See</th>
+                    </tr>
+                    <tr>
+                        <td>🪟 Windows</td>
+                        <td>Start → Settings → System → About</td>
+                        <td>Windows 10/11</td>
+                    </tr>
+                    <tr>
+                        <td>🍎 macOS</td>
+                        <td>Apple Menu → About This Mac</td>
+                        <td>macOS version + chip type</td>
+                    </tr>
+                    <tr>
+                        <td>🐧 Linux</td>
+                        <td>Terminal: <code>uname -a</code></td>
+                        <td>Linux distribution</td>
+                    </tr>
+                </table>
+                <br>
+                <div class="warning-box">
+                    <strong>⚠️ Mac Users:</strong> Check if you have Intel or Apple Silicon (M1/M2/M3)
+                </div>
+            </section>
+
+            <!-- Slide 6: Download Miniconda -->
+            <section>
+                <h2>📥 Step 2: Download Miniconda</h2>
+                <br>
+                <div class="info-box">
+                    <strong>🌐 Go to:</strong> <code style="font-size: 1.2em;">https://docs.conda.io/en/latest/miniconda.html</code>
+                </div>
+                <br>
+                <h3>Choose Your Installer:</h3>
+                <ul>
+                    <li><strong>Windows:</strong> Miniconda3 Windows 64-bit (.exe)</li>
+                    <li><strong>macOS Intel:</strong> Miniconda3 macOS Intel x86 64-bit (.pkg)</li>
+                    <li><strong>macOS Apple Silicon:</strong> Miniconda3 macOS Apple M1 64-bit (.pkg)</li>
+                    <li><strong>Linux:</strong> Miniconda3 Linux 64-bit (.sh)</li>
+                </ul>
+                <br>
+                <div class="success-box">
+                    💡 <strong>Tip:</strong> File size should be around 50-75 MB
+                </div>
+            </section>
+
+            <!-- Slide 7: Windows Installation -->
+            <section>
+                <h2>🪟 Step 3: Windows Installation</h2>
+                <ol>
+                    <li><span class="step-number">1</span> Double-click the downloaded .exe file</li>
+                    <li><span class="step-number">2</span> Click "Next" on welcome screen</li>
+                    <li><span class="step-number">3</span> Click "I Agree" to license</li>
+                    <li><span class="step-number">4</span> Choose <span class="highlight-yellow">"Just Me"</span> (recommended)</li>
+                    <li><span class="step-number">5</span> Keep default installation location</li>
+                    <li><span class="step-number">6</span> <strong>IMPORTANT:</strong> Check ✅ "Add Miniconda3 to my PATH"</li>
+                    <li><span class="step-number">7</span> Click "Install" and wait 3-5 minutes</li>
+                    <li><span class="step-number">8</span> Click "Finish"</li>
+                </ol>
+                <div class="warning-box">
+                    ⚠️ If you see "Windows protected your PC", click "More info" → "Run anyway"
+                </div>
+            </section>
+
+            <!-- Slide 8: macOS Installation -->
+            <section>
+                <h2>🍎 Step 3: macOS Installation</h2>
+                <ol>
+                    <li><span class="step-number">1</span> Double-click the downloaded .pkg file</li>
+                    <li><span class="step-number">2</span> Click "Continue" through introduction</li>
+                    <li><span class="step-number">3</span> Click "Continue" on license → "Agree"</li>
+                    <li><span class="step-number">4</span> Click "Install" (may need password)</li>
+                    <li><span class="step-number">5</span> Wait for installation (3-5 minutes)</li>
+                    <li><span class="step-number">6</span> Click "Close" when complete</li>
+                </ol>
+                <br>
+                <div class="info-box">
+                    💡 <strong>Note:</strong> Installation location: <code>/Users/[username]/miniconda3</code>
+                </div>
+            </section>
+
+            <!-- Slide 9: Linux Installation -->
+            <section>
+                <h2>🐧 Step 3: Linux Installation</h2>
+                <div class="code-box">
+                    # Open Terminal (Ctrl+Alt+T)<br>
+                    cd ~/Downloads<br>
+                    bash Miniconda3-latest-Linux-x86_64.sh<br>
+                </div>
+                <ol>
+                    <li>Press <kbd>Enter</kbd> to review license</li>
+                    <li>Press <kbd>Space</kbd> to scroll, type <code>yes</code> to accept</li>
+                    <li>Press <kbd>Enter</kbd> for default location</li>
+                    <li>Type <code>yes</code> to initialize conda</li>
+                </ol>
+                <br>
+                <div class="success-box">
+                    ✅ Close and reopen terminal after installation
+                </div>
+            </section>
+
+            <!-- Slide 10: Open Terminal/Command Prompt -->
+            <section>
+                <h2>💻 Step 4: Open Your Terminal</h2>
+                <br>
+                <div class="two-column">
+                    <div>
+                        <h3>🪟 Windows:</h3>
+                        <ol>
+                            <li>Press <kbd>Windows</kbd> key</li>
+                            <li>Type "Anaconda Prompt"</li>
+                            <li>Click to open</li>
+                        </ol>
+                        <p style="color: #666; font-size: 0.9em;">Alternative: "Command Prompt" or "PowerShell"</p>
+                    </div>
+                    <div>
+                        <h3>🍎 macOS:</h3>
+                        <ol>
+                            <li>Press <kbd>Cmd</kbd> + <kbd>Space</kbd></li>
+                            <li>Type "Terminal"</li>
+                            <li>Press <kbd>Enter</kbd></li>
+                        </ol>
+                        <p style="color: #666; font-size: 0.9em;">Or: Applications → Utilities → Terminal</p>
+                    </div>
+                </div>
+                <br>
+                <div class="info-box">
+                    🐧 <strong>Linux:</strong> Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
+                </div>
+            </section>
+
+            <!-- Slide 11: Verify Conda Installation -->
+            <section>
+                <h2>✅ Verify Conda Installation</h2>
+                <p>In your terminal, type:</p>
+                <div class="code-box">
+                    conda --version
+                </div>
+                <br>
+                <div class="success-box">
+                    <strong>You should see:</strong> <code>conda 23.x.x</code> (or similar)
+                </div>
+                <br>
+                <h3>🔧 Troubleshooting:</h3>
+                <ul>
+                    <li>❌ "command not found" → Restart terminal</li>
+                    <li>❌ Still not working → We'll help you!</li>
+                </ul>
+            </section>
+
+            <!-- Slide 12: Navigate to Project -->
+            <section>
+                <h2>📁 Navigate to Project Folder</h2>
+                <p>First, let's get to our project folder:</p>
+                <br>
+                <div class="code-box">
+                    # If you saved it to Downloads:<br>
+                    cd ~/Downloads/intro-to-data-science/installation-kit<br>
+                    <br>
+                    # Or if on Desktop:<br>
+                    cd ~/Desktop/intro-to-data-science/installation-kit<br>
+                </div>
+                <br>
+                <div class="info-box">
+                    💡 <strong>Tip:</strong> Use <code>ls</code> (Mac/Linux) or <code>dir</code> (Windows) to see files
+                </div>
+            </section>
+
+            <!-- Slide 13: Create Environment -->
+            <section>
+                <h2>🔨 Step 5: Create Our Environment</h2>
+                <p>Now we'll create our bootcamp environment:</p>
+                <div class="code-box">
+                    conda env create -f environments/ds-bootcamp-env.yml
+                </div>
+                <br>
+                <div class="warning-box">
+                    ⏱️ <strong>This will take 5-10 minutes</strong><br>
+                    You'll see packages downloading and installing
+                </div>
+                <br>
+                <p><strong>What you'll see:</strong></p>
+                <ul>
+                    <li>📥 Downloading packages...</li>
+                    <li>📦 Extracting packages...</li>
+                    <li>✅ Done!</li>
+                </ul>
+            </section>
+
+            <!-- Slide 14: Activate Environment -->
+            <section>
+                <h2>🎯 Step 6: Activate Environment</h2>
+                <p>After creation completes, activate the environment:</p>
+                <div class="code-box">
+                    conda activate ds-bootcamp
+                </div>
+                <br>
+                <div class="success-box">
+                    <strong>You should see:</strong> <code>(ds-bootcamp)</code> at the start of your terminal line
+                </div>
+                <br>
+                <p>This means you're now in our bootcamp environment! 🎉</p>
+                <br>
+                <div class="info-box">
+                    💡 You'll need to run this command each time you open a new terminal
+                </div>
+            </section>
+
+            <!-- Slide 15: Quick Verification -->
+            <section>
+                <h2>🧪 Step 7: Quick Verification</h2>
+                <p>Let's verify everything is installed correctly:</p>
+                <div class="code-box">
+                    python scripts/quick_test.py
+                </div>
+                <br>
+                <div class="success-box">
+                    <strong>Expected output:</strong><br>
+                    ✅ Python is working!<br>
+                    ✅ All required packages are installed!<br>
+                    ✅ You're ready for the bootcamp! 🎉
+                </div>
+                <br>
+                <p>If you see any ❌ marks, raise your hand for help!</p>
+            </section>
+
+            <!-- Slide 16: Full Verification -->
+            <section>
+                <h2>🔬 Full System Verification</h2>
+                <p>For a complete check with details:</p>
+                <div class="code-box">
+                    python scripts/verify_setup.py
+                </div>
+                <br>
+                <p>This will show:</p>
+                <ul>
+                    <li>✅ Python version</li>
+                    <li>✅ All package versions</li>
+                    <li>✅ Jupyter installation</li>
+                    <li>✅ Widget support</li>
+                </ul>
+                <br>
+                <div class="info-box">
+                    📊 Progress bars will show installation status for each component
+                </div>
+            </section>
+
+            <!-- Slide 17: Launch Jupyter -->
+            <section>
+                <h2>🚀 Step 8: Launch Jupyter Notebook</h2>
+                <p>Finally, let's start Jupyter:</p>
+                <div class="code-box">
+                    jupyter notebook
+                </div>
+                <br>
+                <p><strong>What happens:</strong></p>
+                <ol>
+                    <li>📝 Terminal shows server information</li>
+                    <li>🌐 Browser opens automatically</li>
+                    <li>📁 You see file navigator</li>
+                </ol>
+                <br>
+                <div class="warning-box">
+                    ⚠️ <strong>Important:</strong> Keep the terminal window open while using Jupyter!
+                </div>
+            </section>
+
+            <!-- Slide 18: Test Notebook -->
+            <section>
+                <h2>📓 Test the Installation</h2>
+                <p>In Jupyter, open: <code>scripts/test_notebook.ipynb</code></p>
+                <br>
+                <ol>
+                    <li>Click on the notebook to open it</li>
+                    <li>Run each cell with <kbd>Shift</kbd> + <kbd>Enter</kbd></li>
+                    <li>You should see:
+                        <ul>
+                            <li>✅ Package imports work</li>
+                            <li>✅ Interactive widgets appear</li>
+                            <li>✅ Plots display correctly</li>
+                        </ul>
+                    </li>
+                </ol>
+                <br>
+                <div class="success-box">
+                    🎉 If everything works, you're ready for the bootcamp!
+                </div>
+            </section>
+
+            <!-- Slide 19: Common Issues -->
+            <section>
+                <h2>⚠️ Common Issues & Solutions</h2>
+                <table style="font-size: 0.9em;">
+                    <tr>
+                        <th>Problem</th>
+                        <th>Solution</th>
+                    </tr>
+                    <tr>
+                        <td>"conda not found"</td>
+                        <td>Restart terminal or reinstall Miniconda</td>
+                    </tr>
+                    <tr>
+                        <td>"Environment already exists"</td>
+                        <td><code>conda env remove -n ds-bootcamp</code> then recreate</td>
+                    </tr>
+                    <tr>
+                        <td>Package conflicts</td>
+                        <td>Update conda: <code>conda update conda</code></td>
+                    </tr>
+                    <tr>
+                        <td>Jupyter won't start</td>
+                        <td>Check environment is activated</td>
+                    </tr>
+                    <tr>
+                        <td>Widgets not showing</td>
+                        <td>Restart kernel in Jupyter</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 20: Alternative Options -->
+            <section>
+                <h2>🔄 Backup Options</h2>
+                <p>If local installation doesn't work:</p>
+                <br>
+                <div class="two-column">
+                    <div>
+                        <h3>Option A: Google Colab</h3>
+                        <ul>
+                            <li>☁️ Cloud-based</li>
+                            <li>🆓 Free to use</li>
+                            <li>📱 Works on any device</li>
+                            <li>🌐 <code>colab.research.google.com</code></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Option B: Full Anaconda</h3>
+                        <ul>
+                            <li>📦 Everything pre-installed</li>
+                            <li>🖱️ GUI interface</li>
+                            <li>💾 Larger download (3GB)</li>
+                            <li>🌐 <code>anaconda.com</code></li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div class="info-box">
+                    We'll help you set up alternatives if needed!
+                </div>
+            </section>
+
+            <!-- Slide 21: Daily Workflow -->
+            <section>
+                <h2>📅 Your Daily Workflow</h2>
+                <p>Each time you work on bootcamp materials:</p>
+                <br>
+                <div style="font-size: 1.1em;">
+                    <p><span class="step-number">1</span> Open terminal/command prompt</p>
+                    <p><span class="step-number">2</span> Activate environment:</p>
+                    <div class="code-box">conda activate ds-bootcamp</div>
+                    <p><span class="step-number">3</span> Navigate to project folder:</p>
+                    <div class="code-box">cd path/to/intro-to-data-science</div>
+                    <p><span class="step-number">4</span> Start Jupyter:</p>
+                    <div class="code-box">jupyter notebook</div>
+                </div>
+            </section>
+
+            <!-- Slide 22: Quick Commands Reference -->
+            <section>
+                <h2>📝 Essential Commands</h2>
+                <table>
+                    <tr>
+                        <th>Action</th>
+                        <th>Command</th>
+                    </tr>
+                    <tr>
+                        <td>Check conda version</td>
+                        <td><code>conda --version</code></td>
+                    </tr>
+                    <tr>
+                        <td>List environments</td>
+                        <td><code>conda env list</code></td>
+                    </tr>
+                    <tr>
+                        <td>Activate bootcamp env</td>
+                        <td><code>conda activate ds-bootcamp</code></td>
+                    </tr>
+                    <tr>
+                        <td>Deactivate environment</td>
+                        <td><code>conda deactivate</code></td>
+                    </tr>
+                    <tr>
+                        <td>Start Jupyter</td>
+                        <td><code>jupyter notebook</code></td>
+                    </tr>
+                    <tr>
+                        <td>Install new package</td>
+                        <td><code>conda install [package]</code></td>
+                    </tr>
+                    <tr>
+                        <td>Update package</td>
+                        <td><code>conda update [package]</code></td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 23: Getting Help -->
+            <section class="center-slide">
+                <h2>🆘 Getting Help</h2>
+                <br>
+                <div class="two-column">
+                    <div>
+                        <h3>During Installation:</h3>
+                        <ul>
+                            <li>🙋 Raise your hand</li>
+                            <li>💬 Ask in chat</li>
+                            <li>👥 Help your neighbor</li>
+                            <li>📧 Email instructor</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Resources:</h3>
+                        <ul>
+                            <li>📁 <code>TROUBLESHOOTING.md</code></li>
+                            <li>📚 Installation guides</li>
+                            <li>🔧 Verification scripts</li>
+                            <li>💻 Office hours</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div class="success-box">
+                    Remember: Everyone struggles with setup sometimes. It's normal! 
+                </div>
+            </section>
+
+            <!-- Slide 24: Success Checklist -->
+            <section>
+                <h2>✅ Installation Checklist</h2>
+                <p>Before we move on, verify you have:</p>
+                <br>
+                <ul style="font-size: 1.1em; line-height: 2;">
+                    <li>☐ Miniconda installed</li>
+                    <li>☐ <code>conda --version</code> works</li>
+                    <li>☐ Environment created (<code>ds-bootcamp</code>)</li>
+                    <li>☐ Environment activated</li>
+                    <li>☐ Quick test passed (<code>quick_test.py</code>)</li>
+                    <li>☐ Jupyter launches</li>
+                    <li>☐ Test notebook runs</li>
+                </ul>
+                <br>
+                <div class="info-box">
+                    🎯 Goal: Everyone has at least 5/7 checked!
+                </div>
+            </section>
+
+            <!-- Slide 25: Next Steps -->
+            <section class="center-slide">
+                <h2>🎉 Congratulations!</h2>
+                <span class="big-emoji">🚀</span>
+                <p style="font-size: 1.2em;">You've successfully set up your data science environment!</p>
+                <br>
+                <h3>Next Session:</h3>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>📓 Opening the main bootcamp notebook</li>
+                    <li>🐍 Python basics review</li>
+                    <li>📊 First data analysis</li>
+                    <li>🎯 Interactive exercises</li>
+                </ul>
+                <br>
+                <div class="success-box">
+                    <strong>Homework:</strong> Run through test_notebook.ipynb at home
+                </div>
+            </section>
+
+            <!-- Slide 26: Q&A -->
+            <section class="center-slide">
+                <span class="big-emoji">❓</span>
+                <h1>Questions & Answers</h1>
+                <br>
+                <p style="font-size: 1.2em;">Now is the time to ask anything!</p>
+                <br>
+                <div class="info-box">
+                    <strong>No question is too simple!</strong><br>
+                    If you're wondering about it, others probably are too.
+                </div>
+            </section>
+
+            <!-- Slide 27: Thank You -->
+            <section class="center-slide">
+                <h1>Thank You! 🙏</h1>
+                <br>
+                <p style="font-size: 1.3em;">Great job on completing the setup!</p>
+                <br>
+                <div class="success-box" style="font-size: 1.1em;">
+                    <strong>Remember:</strong><br>
+                    • Installation issues are normal<br>
+                    • We're here to help<br>
+                    • Alternative options exist<br>
+                    • You've got this! 💪
+                </div>
+                <br>
+                <p style="font-size: 1.1em;">See you in the next session!</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            controls: true,
+            progress: true,
+            center: false,
+            transition: 'slide',
+            plugins: [ RevealHighlight, RevealNotes, RevealZoom ]
+        });
+    </script>
+</body>
+</html>
