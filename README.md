@@ -9,13 +9,13 @@
 
 ---
 
-## 🌟 Welcome to Your Complete Data Science Journey!
+## 🌟 Welcome to Your Data Science Journey!
 
-This repository contains a **comprehensive collection of educational materials** designed to transform complete beginners into job-ready data scientists. From your very first line of code to building production-ready machine learning systems, everything you need is here.
+This repository contains the **foundational educational materials** for the Metrica Academy Data Science Bootcamp. This collection focuses on the first essential module - introducing students to data science concepts and teaching Python programming from scratch. Additional modules covering visualization, exploratory data analysis, machine learning, and deep learning will be added as the bootcamp progresses.
 
 ## 📚 What's Included?
 
-This collection provides **four integrated learning modules** that build upon each other:
+This repository contains the **foundational materials** for Module 1 of the Data Science Bootcamp:
 
 ### 🔧 [Installation Kit](installation-kit/)
 *Your technical foundation starts here*
@@ -39,11 +39,11 @@ This collection provides **four integrated learning modules** that build upon ea
 - **Professional visualization** and analysis tools
 
 ### 🎯 [Complete Bootcamp Curriculum](ds-bootcamp-curriculum/)
-*Your roadmap to becoming a data scientist*
-- **6-month structured program** (240 hours total)
-- **8 comprehensive modules** covering the full data science pipeline
-- **15+ portfolio projects** with industry applications
-- **Career preparation** and job placement support
+*Overview and structure of the full 6-month program*
+- **Program overview** and detailed syllabus
+- **6-month structured curriculum** outline (240 hours total)
+- **Assessment structure** and learning objectives
+- **Career preparation** framework
 
 ---
 
@@ -84,20 +84,19 @@ Each module can be used independently. See the README in each folder for specifi
 
 ## 🗺️ Learning Path
 
-### Recommended Journey (6-8 months)
+### Module 1 Learning Path (4-5 weeks)
 ```mermaid
 graph LR
     A[🔧 Installation Kit<br/>1-2 hours] --> B[🐍 Python Fundamentals<br/>3 weeks]
     B --> C[📊 Intro to Data Science<br/>2-3 weeks]  
-    C --> D[🎯 Full Bootcamp<br/>6 months]
-    D --> E[💼 Job Ready!]
+    C --> D[📈 Ready for Advanced Modules]
 ```
 
 ### Alternative Paths
 
-**🏃‍♀️ Accelerated Track (3-4 months)**
+**🏃‍♀️ Accelerated Track (2-3 weeks)**
 - Skip Python Fundamentals if you have programming experience
-- Focus on data science modules and projects
+- Jump directly to Introduction to Data Science
 
 **👨‍🏫 Instructor-Led Course**
 - Use Python Fundamentals for teaching beginners
@@ -105,83 +104,10 @@ graph LR
 
 **🔬 Self-Study Data Science**
 - Start with Introduction to Data Science
-- Use as supplement to other learning materials
+- Use as preparation for advanced modules
 
 ---
 
-## 📖 Course Content Overview
-
-### Module 1: Installation Kit
-- ✅ Cross-platform setup guides
-- ✅ Conda environment with 40+ packages
-- ✅ Verification and testing scripts
-- ✅ Comprehensive troubleshooting
-
-### Module 2: Python Fundamentals (30 hours)
-**Week 1: Foundation Building**
-- Variables, data types, and operations
-- Lists and dictionaries
-- Project: Personal Finance Tracker
-
-**Week 2: Logic & Control**
-- Conditionals and loops
-- Functions and code organization
-- Project: Text Adventure Game
-
-**Week 3: Real-World Applications**
-- File I/O and error handling
-- Working with data
-- Capstone: Healthcare/Finance/Retail project
-
-### Module 3: Introduction to Data Science
-**Interactive Learning with Real Datasets**
-- 🏥 Healthcare: COVID-19 risk analysis
-- 💳 Finance: Fraud detection patterns
-- 🏠 Real Estate: Price prediction modeling
-- 🎬 Entertainment: Recommendation systems
-- 🛍️ Retail: Customer analytics
-
-### Module 4: Complete Bootcamp Curriculum (240 hours)
-**8 Comprehensive Modules**
-1. Introduction to Data Science (3 weeks)
-2. Programming & Data Management (4 weeks)
-3. Data Visualization & EDA (3 weeks)
-4. Machine Learning (4 weeks)
-5. Deep Learning & NLP (4 weeks)
-6. Data Engineering & Production (3 weeks)
-7. Statistics & A/B Testing (2 weeks)
-8. Soft Skills & Career Prep (1 week)
-
----
-
-## 🎯 What You'll Build
-
-### 📁 Portfolio Projects
-By completion, you'll have built:
-
-**Beginner Projects**
-- Personal finance tracking system
-- Interactive text adventure game
-- Data analysis dashboards
-
-**Intermediate Projects**
-- Healthcare risk assessment tool
-- Fraud detection system
-- Movie recommendation engine
-- Customer segmentation analysis
-
-**Advanced Projects**
-- Machine learning prediction models
-- Deep learning applications
-- Production data pipelines
-- A/B testing frameworks
-
-**Capstone Project**
-- End-to-end data science application
-- Professional presentation
-- Deployed solution with documentation
-
----
 
 ## 🛠️ Technology Stack
 
@@ -191,18 +117,16 @@ By completion, you'll have built:
 - **Git & GitHub** - Version control and collaboration
 - **Conda/Miniconda** - Package and environment management
 
-### Data Science Libraries
+### Data Science Libraries (Foundational)
 - **Data Manipulation**: pandas, numpy
 - **Visualization**: matplotlib, seaborn, plotly
-- **Machine Learning**: scikit-learn, scipy
-- **Deep Learning**: tensorflow, pytorch (optional)
-- **Statistics**: statsmodels, pingouin
+- **Interactive Widgets**: ipywidgets
+- **Basic Statistics**: scipy
 
 ### Development Tools
-- **Code Quality**: black, flake8, isort
-- **Testing**: pytest
-- **Documentation**: sphinx
-- **Cloud**: AWS, Google Cloud (advanced modules)
+- **Code Quality**: black, flake8, isort (where available)
+- **Documentation**: Jupyter notebooks with markdown
+- **Version Control**: Git and GitHub
 
 ---
 
@@ -225,45 +149,25 @@ By completion, you'll have built:
 
 ## 🎓 Learning Outcomes
 
-Upon completion of the full program, graduates will be able to:
+Upon completion of Module 1, students will be able to:
 
 ### Technical Skills
-- ✅ **Program in Python** with confidence and best practices
-- ✅ **Manipulate and analyze** large datasets efficiently
-- ✅ **Create compelling visualizations** and dashboards
-- ✅ **Build machine learning models** from data to deployment
-- ✅ **Work with databases** and design data pipelines
-- ✅ **Apply statistical methods** and conduct A/B tests
-- ✅ **Deploy applications** to cloud platforms
+- ✅ **Program in Python** with confidence using core language features
+- ✅ **Work with data structures** like lists, dictionaries, and files
+- ✅ **Create basic data analysis** scripts and visualizations
+- ✅ **Apply programming logic** with conditionals, loops, and functions
+- ✅ **Handle errors** and debug common programming issues
+- ✅ **Use Jupyter notebooks** for interactive development
 
 ### Professional Skills
-- ✅ **Communicate findings** to technical and business audiences
-- ✅ **Manage data science projects** from inception to completion
-- ✅ **Collaborate effectively** using industry-standard tools
-- ✅ **Present technical work** professionally
-- ✅ **Continue learning** new technologies independently
-
-### Career Readiness
-- ✅ **Portfolio** of 15+ professional projects
-- ✅ **GitHub profile** showcasing technical abilities
-- ✅ **Interview preparation** for data science roles
-- ✅ **Industry knowledge** of current tools and practices
-- ✅ **Network connections** through peer collaboration
+- ✅ **Follow coding best practices** and write readable code
+- ✅ **Think algorithmically** and break down complex problems
+- ✅ **Use Git and GitHub** for version control
+- ✅ **Document work clearly** for future reference
+- ✅ **Build foundational skills** for data science specialization
 
 ---
 
-## 📈 Success Stories
-
-> *"I went from never having coded before to landing my first data science job in 8 months. The progressive structure and real-world projects made all the difference."*  
-> **— Sarah K., Marketing → Data Scientist**
-
-> *"As an instructor, these materials saved me hundreds of hours of preparation. The analogies and interactive components keep students engaged."*  
-> **— Dr. Miguel R., University Professor**
-
-> *"The installation guides are amazing! I helped 5 colleagues set up their environments using these step-by-step instructions."*  
-> **— Priya S., Business Analyst**
-
----
 
 ## 🤝 Community & Support
 
@@ -291,13 +195,13 @@ We welcome contributions from the community! See our [Contributing Guidelines](C
 
 ## 📊 Repository Stats
 
-- **📁 4 integrated modules** covering complete learning path
-- **📓 100+ Jupyter notebooks** with interactive content
-- **📊 20+ datasets** for hands-on practice
+- **📁 4 foundational components** for Module 1
+- **📓 15+ Jupyter notebooks** with interactive content
+- **📊 10+ datasets** for hands-on practice
 - **🖼️ 75+ educational images** and visualizations
 - **⚡ 15+ verification scripts** ensuring smooth setup
-- **📚 50+ hours** of structured learning content
-- **🎯 25+ projects** for portfolio development
+- **📚 30+ hours** of structured learning content in Module 1
+- **🎯 5+ projects** building core skills
 
 ---
 
